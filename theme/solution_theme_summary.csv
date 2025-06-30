@@ -1,0 +1,25 @@
+Code,Sub-theme,Theme,Type
+Secure Code Execution Implementation,Secure Coding & Execution,System & Software Security Solutions,Solution
+Secure Deserialization Practices,Secure Coding & Execution,System & Software Security Solutions,Solution
+Input Validation and Sanitization,Secure Coding & Execution,System & Software Security Solutions,Solution
+Secure Deployment Strategies,Secure Infrastructure & Deployment,System & Software Security Solutions,Solution
+Implementation of Secure Default Configurations,Secure Infrastructure & Deployment,System & Software Security Solutions,Solution
+Modify configurations for enhanced security,Secure Infrastructure & Deployment,System & Software Security Solutions,Solution
+Memory Safety & Resource Management Techniques,Secure Runtime & Environment Configuration,System & Software Security Solutions,Solution
+Secure Communication Protocol Usage,Secure Runtime & Environment Configuration,System & Software Security Solutions,Solution
+Modify configurations for enhanced compatibility,Secure Runtime & Environment Configuration,System & Software Security Solutions,Solution
+Implementation of Data Anonymization,Data Protection & Access Control,Data Security Solutions,Solution
+Implementation of Data Access Controls/Guardrails,Data Protection & Access Control,Data Security Solutions,Solution
+Secure Prompt Formatting Techniques,Secure Model Input & Output Control,Model Security Solutions,Solution
+Implementation of Content Safety Filters/Checkers,Secure Model Input & Output Control,Model Security Solutions,Solution
+Secure Model Format Adoption,Secure Model Handling & Formats,Model Security Solutions,Solution
+Dependency Version Upgrade,Dependency & Supply Chain Security,External Tools & Ecosystem Security Solutions,Solution
+Component Removal/Replacement,Dependency & Supply Chain Security,External Tools & Ecosystem Security Solutions,Solution
+Use of Dependency Management Tools,Dependency & Supply Chain Security,External Tools & Ecosystem Security Solutions,Solution
+Dependency Source Vetting and Control,Dependency & Supply Chain Security,External Tools & Ecosystem Security Solutions,Solution
+Use of Isolated Processes for Dependencies,Dependency & Supply Chain Security,External Tools & Ecosystem Security Solutions,Solution
+Implementation of Authentication Mechanisms,Platform Identity & Access Management,External Tools & Ecosystem Security Solutions,Solution
+Authorization & Permission Controls,Platform Identity & Access Management,External Tools & Ecosystem Security Solutions,Solution
+User Consent and Warning Mechanisms,Security Governance & Assurance,External Tools & Ecosystem Security Solutions,Solution
+Adoption of vulnerability disclosure and reporting process,Security Governance & Assurance,External Tools & Ecosystem Security Solutions,Solution
+Adoption/Enhancment of Security Scanning & Testing Tools,Security Governance & Assurance,External Tools & Ecosystem Security Solutions,Solution

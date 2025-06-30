@@ -10,15 +10,21 @@ Check the `requirements.txt` file for the necessary Python packages.
 
 ```
 .
-|-- mining/  # Code for data collection
-|   |-- result/  # Data collection results
-|-- classifier/ # Code for DL/LLMs
-|   |-- dl_tune.py  # DL models
-|   |-- llm.py  # LLM zero/few-shot
+|-- mining/             # Code for data collection
+|   |-- result/             # Data collection results
+|-- classifier/         # Code for classifiers
+|   |-- manual/             # Manual label train-val
+|   |-- test/               # Manual label test
+|   |-- process.ipynb       # Data processing
+|   |-- dl_tune.py          # DL models
+|   |-- llm.py              # LLM zero/few-shot
+|-- theme/              # Thematic analysis data
+
+
 ```
 
-
 # Data
+Including the full data with the discussion is too heavy so we only include the id and the sources along with the label. Full discussion data can be found the models.db database.
 
 
 # Citation

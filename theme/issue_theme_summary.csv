@@ -1,0 +1,33 @@
+Code,Sub-theme,Theme,Type
+System/software path traversal,Code Execution Security Concerns,System & Software Security Concerns,Issue
+System/Software unsafe deserialization,Code Execution Security Concerns,System & Software Security Concerns,Issue
+System/software arbitrary code execution,Code Execution Security Concerns,System & Software Security Concerns,Issue
+Unsafe OS command execution and environment variable handling,Code Execution Security Concerns,System & Software Security Concerns,Issue
+System/software Cross-Site Scripting,Code Execution Security Concerns,System & Software Security Concerns,Issue
+System/software Request Forgery,Code Execution Security Concerns,System & Software Security Concerns,Issue
+System/software open redirect,Code Execution Security Concerns,System & Software Security Concerns,Issue
+Unsafe memory usage,Memory and Resource Security Concerns,System & Software Security Concerns,Issue
+System resource exhaustions,Memory and Resource Security Concerns,System & Software Security Concerns,Issue
+Unaware compromised infrastructures,Deployment and Infrastructure Security Concerns,System & Software Security Concerns,Issue
+Deployment misconfigurations,Deployment and Infrastructure Security Concerns,System & Software Security Concerns,Issue
+Using insecure (default) deployment configurations,Deployment and Infrastructure Security Concerns,System & Software Security Concerns,Issue
+Insecure communication due to missing certificates or protocols,Secure Communication Concerns,System & Software Security Concerns,Issue
+Exposed system details and information in APIs,Secure Communication Concerns,System & Software Security Concerns,Issue
+File format and loading incompatibility,System Runtime Compatibility Concerns,System & Software Security Concerns,Issue
+Software dependencies Compatibility Issues,System Runtime Compatibility Concerns,System & Software Security Concerns,Issue
+environmental Compatibility issues,System Runtime Compatibility Concerns,System & Software Security Concerns,Issue
+Data leakages during model training/inference/usage,Data Exposure Concerns,Data Security Concerns,Issue
+Unauthorized data collection during usage,Data Exposure Concerns,Data Security Concerns,Issue
+Data tampering during deployments,Data Integrity Concerns,Data Security Concerns,Issue
+Security risk from deficient data quality,Data Integrity Concerns,Data Security Concerns,Issue
+Model input manipulations and evasions,Model Input and Prompt Security Concerns,Model Security Concerns,Issue
+Flawed or insecure prompt/template design,Model Input and Prompt Security Concerns,Model Security Concerns,Issue
+Harmful/Undesired model output,Model Output and Content Control Concerns,Model Security Concerns,Issue
+Unreliable content filtering mechanism for model output,Model Output and Content Control Concerns,Model Security Concerns,Issue
+Failure of Model Generation Control Parameters,Model Output and Content Control Concerns,Model Security Concerns,Issue
+Use of untrusted dependency sources,Security of Dependencies Concerns,External Tools & Ecosystem Security Concerns,Issue
+Outdated third-party dependency/package contains vulnerabilities,Security of Dependencies Concerns,External Tools & Ecosystem Security Concerns,Issue
+Risk of malicious codes in dependencies/plugins,Security of Dependencies Concerns,External Tools & Ecosystem Security Concerns,Issue
+Improper authentication and authorization,External Service Usage Security Concerns,External Tools & Ecosystem Security Concerns,Issue
+Platform API Availability/Error,External Service Usage Security Concerns,External Tools & Ecosystem Security Concerns,Issue
+Limited capabilities of security tools,External Service Usage Security Concerns,External Tools & Ecosystem Security Concerns,Issue
