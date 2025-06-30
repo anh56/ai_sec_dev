@@ -17,7 +17,8 @@ Check the `requirements.txt` file for the necessary Python packages.
 |   |-- test/               # Manual label test
 |   |-- process.ipynb       # Data processing
 |   |-- dl_tune.py          # DL models
-|   |-- llm.py              # LLM zero/few-shot
+|   |-- llm.py              # LLM zeroshot
+|   |-- llm_few.py          # LLM fewshot
 |-- theme/              # Thematic analysis data
 
 

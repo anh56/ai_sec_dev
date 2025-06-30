@@ -683,8 +683,3 @@ if __name__ == "__main__":
 		model_name=args.model,
 		device_no=args.device,
 	)
-
-# file_name = "merged_gh_discussions.csv"
-# input_path = f"merged_after_manual/{file_name}"
-# output_path = f"prediction/{file_name}"
-# run_classifier(input_path, output_path)

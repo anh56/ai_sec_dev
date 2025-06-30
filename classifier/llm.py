@@ -132,47 +132,6 @@ def run_llm(
     return response, f"{end_time - start_time:.2f}"
 
 
-def run_nli_inference(
-    pipe,
-    row_content: str
-):
-    # cols = []
-    # if type == "gh":
-    #     cols = ["discussion_title", "discussion_body", "comment_body"]
-    # elif type == "hf":
-    #     cols = ["title", "content"]
-    # else:
-    #     raise ValueError("Invalid type")
-    # pipe = pipeline(model="facebook/bart-large-mnli", task="zero-shot-classification", device=-1)
-    # for index, row in df.iterrows():
-    #     row_content = ""
-    #     for col in cols:
-    #         row_content += str(row[col]) + " "
-    #         prediction = run_inference(pipe, row_content)
-    #
-    #     df.at[index, "is_security_prediction"] = prediction["labels"][0]
-    #     df.at[index, "prediction_score"] = prediction["scores"][0]
-    #     print(index, prediction["labels"][0], prediction["scores"][0])
-    # total = len(df)
-    # security = len(df[df["is_security_prediction"] == "security"])
-    # non_security = len(df[df["is_security_prediction"] == "non-security"])
-    # print(f"Total: {total}, Security: {security}, Non-Security: {non_security}")
-    # print(f"Security Percentage: {security / total * 100}%, Non-Security Percentage: {non_security / total * 100}%")
-    # security = len(df[df["is_security_prediction"] == "security"])
-    # non_security = len(df[df["is_security_prediction"] == "non-security"])
-    # print(f"Total: {total}, Security: {security}, Non-Security: {non_security}")
-    # print(f"Security Percentage: {security / total * 100}%, Non-Security Percentage: {non_security / total * 100}%")
-    # df["is_security_prediction"] = df["is_security_prediction"].map(
-    #     {"security": 1, "non-security": 0}
-    # ).astype("category")
-
-    prediction = pipe(
-        row_content,
-        candidate_labels=["security", "non-security"]
-    )
-    return prediction["labels"][0], prediction["scores"][0]
-
-
 def process_df(df: DataFrame, type: str, llm: Runnable):
     df["is_security_prediction"] = None
     df["explanation"] = None
@@ -183,9 +142,6 @@ def process_df(df: DataFrame, type: str, llm: Runnable):
     comment = ""
 
     for index, row in tqdm(df.iterrows(), total=len(df), desc="Processing rows"):
-        # if index != 2755:
-        #     print(index)
-        #     continue
         prompt = None
         prompt_template = PromptTemplate(
             template=TEMPLATES[type][0],
@@ -271,11 +227,6 @@ def calculate_metrics(df, start):
     return metrics
 
 
-# df = pd.read_csv("./merged_after_manual/merged_hf_discussions.csv")
-# df = process_df(df, "hf")
-# df.to_csv("./inference/merged_hf_discussions_llama33_70b.csv", index=False)
-# calculate_metrics(df)
-
 def run_inference(
     experiment_name: str,
     input_file_name: str,
@@ -332,77 +283,3 @@ if __name__ == "__main__":
         type=args.type,
         model=args.model,
     )
-
-# df = pd.read_csv("./inference/merged_gh_discussions_with_predictions.csv")
-
-
-# from langchain_core.prompts import PromptTemplate
-# from pydantic import BaseModel, Field
-# from langchain.chat_models import init_chat_model
-# import pandas as pd
-#
-# llm = init_chat_model(
-#     "gemini-2.0-flash-001",
-#     model_provider="google_vertexai"
-# )
-#
-#
-# class SecurityOutput(BaseModel):
-#     """"
-#     Structured output for the security classification task.
-#     """
-#     input_text: str
-#     is_security: bool
-#
-#
-# structured_llm = llm.with_structured_output(SecurityOutput)
-#
-# structured_llm.invoke("Tell me a joke about cats")
-#
-# llm = init_chat_model("gemini-2.0-flash-001", model_provider="google_vertexai")
-#
-# # Load the dataset from a file
-# file_path = "path/to/your/dataset.csv"
-# df = pd.read_csv(file_path)
-#
-# # Define the zero-shot prompt
-# prompt_template = PromptTemplate(
-#     template="Classify the following text as related to security or not:\n\nText: {text}\n\nClassification:",
-#     input_variables=["text"]
-# )
-#
-#
-# # Function to classify text using the LLM
-# def classify_text(text):
-#     prompt = prompt_template.format(text=text)
-#     response = llm(prompt)
-#     return response.strip()
-#
-#
-# # Apply the classification to the dataset
-# df["SecurityClassification"] = df["TextColumn"].apply(classify_text)
-#
-# # Save the classified dataset to a new file
-# output_file_path = "path/to/your/output_dataset.csv"
-# df.to_csv(output_file_path, index=False)
-#
-# print("Classification completed and saved to", output_file_path)
-
-
-# client = InferenceClient(api_key="")
-#
-# messages = [
-# 	{ "role": "user", "content": "Tell me a story" }
-# ]
-#
-# stream = client.chat.completions.create(
-#     model="deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-# 	messages=messages,
-# 	temperature=0.5,
-# 	max_tokens=8704,
-# 	top_p=0.7,
-# 	stream=True
-# )
-#
-# for chunk in stream:
-#     print(chunk.choices[0].delta.content)
