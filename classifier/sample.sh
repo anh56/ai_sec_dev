@@ -1,6 +1,6 @@
 # remember to get export the content of the corresponding discussion before running
 # train
-python classifier_tune.py -N "all_9_train_secbert" -F "all.csv" -I "manual" -O "prediction_tuned" -T "all" -M "secbert" -E 10 -KF 10
+python classifier_tune.py -N "train_distilbert_" -F "all.csv" -I "manual" -O "prediction_tuned" -T "all" -M "distilbert" -E 10 -KF 10
 
 # test and infer use the same script
 # test distilbert
