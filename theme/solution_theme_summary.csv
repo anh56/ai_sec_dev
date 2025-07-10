@@ -9,10 +9,10 @@ Modify configurations for enhanced security,Secure Infrastructure & Deployment,S
 Memory Safety & Resource Management Techniques,Secure Runtime & Environment Configuration,System & Software Security Solutions,Solution
 Secure Communication Protocol Usage,Secure Runtime & Environment Configuration,System & Software Security Solutions,Solution
 Modify configurations for enhanced compatibility,Secure Runtime & Environment Configuration,System & Software Security Solutions,Solution
-Implementation of Data Anonymization,Data Protection & Access Control,Data Security Solutions,Solution
-Implementation of Data Access Controls/Guardrails,Data Protection & Access Control,Data Security Solutions,Solution
-Secure Prompt Formatting Techniques,Secure Model Input & Output Control,Model Security Solutions,Solution
-Implementation of Content Safety Filters/Checkers,Secure Model Input & Output Control,Model Security Solutions,Solution
+Implementation of Data Anonymization,Data Anonymization/Guradrails,Data Security Solutions,Solution
+Implementation of Data Access Controls/Guardrails,Data Anonymization/Guradrails,Data Security Solutions,Solution
+Secure Prompt Formatting Techniques,Secure Prompt/Saftety Filter,Model Security Solutions,Solution
+Implementation of Content Safety Filters/Checkers,Secure Prompt/Saftety Filter,Model Security Solutions,Solution
 Dependency Version Upgrade,Dependency & Supply Chain Security,External Tools & Ecosystem Security Solutions,Solution
 Component Removal/Replacement,Dependency & Supply Chain Security,External Tools & Ecosystem Security Solutions,Solution
 Use of Dependency Management Tools,Dependency & Supply Chain Security,External Tools & Ecosystem Security Solutions,Solution

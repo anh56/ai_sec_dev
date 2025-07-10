@@ -1,0 +1,758 @@
+source,id,issue,solution
+GH Discussion,NVIDIA/garak-1048,,Adoption/Enhancment of Security Scanning & Testing Tools
+GH Discussion,huggingface/text-generation-inference-1548,Improper authentication and authorization,Implementation of Authentication Mechanisms
+GH Discussion,comfyanonymous/ComfyUI-5165,", Deployment misconfigurations, Unaware compromised infrastructures, Using insecure (default) deployment configurations",User Consent and Warning Mechanisms
+GH Discussion,ltdrdata/ComfyUI-Manager-890,,"Secure Deployment Strategies, Dependency Source Vetting and Control,  Use of Isolated Processes for Dependencies"
+GH Discussion,vllm-project/vllm-11757,System/software arbitrary code execution,
+GH Discussion,abetlen/llama-cpp-python-1711,"System/software arbitrary code execution, Outdated third-party dependency/package contains vulnerabilities",
+GH Discussion,infiniflow/ragflow-1257,"Outdated third-party dependency/package contains vulnerabilities, Data leakages during model training/inference/usage","Use of Dependency Management Tools,"
+GH Discussion,DS4SD/docling-459,", Unauthorized data collection during usage",
+GH Discussion,pyannote/pyannote-audio-1401,Unauthorized data collection during usage,
+GH Discussion,LAION-AI/Open-Assistant-3404,"Data tampering during deployments, Unaware compromised infrastructures",
+GH Discussion,keras-team/keras-20464,"Software Dependencies Compatibility Issues, System/Software unsafe deserialization",
+GH Discussion,voicepaw/so-vits-svc-fork-936,"Deployment misconfigurations, Software Dependencies Compatibility Issues",
+GH Discussion,NVIDIA/garak-359,,Adoption/Enhancment of Security Scanning & Testing Tools
+GH Discussion,idiap/coqui-ai-TTS-105,"Unsafe memory usage, Environmental Compatibility Issues",
+GH Discussion,google/jax-17456,"System resource exhaustions, Environmental Compatibility Issues",
+GH Discussion,InternLM/lmdeploy-442,Environmental Compatibility Issues,
+GH Discussion,jax-ml/jax-13323,System resource exhaustions,
+GH Discussion,comfyanonymous/ComfyUI-5274,"Unsafe memory usage, Software Dependencies Compatibility Issues",
+GH Discussion,mudler/LocalAI-3887,Environmental Compatibility Issues,
+GH Discussion,snakers4/silero-models-224,"File format and loading incompatibility, System resource exhaustions",Modify configurations for enhanced compatibility
+GH Discussion,snakers4/silero-models-225,"Unsafe memory usage, Environmental Compatibility Issues",
+GH Discussion,SciSharp/LLamaSharp-941,"Harmful/Undesired model output, Failure of Model Generation Control Parameters",
+GH Discussion,NVIDIA/garak-915,"Limited capabilities of security tools, Harmful/Undesired model output",Adoption/Enhancment of Security Scanning & Testing Tools
+GH Discussion,lllyasviel/ControlNet-369,"Harmful/Undesired model output, Unreliable content filtering mechanism for model output","Implementation of Content Safety Filters/Checkers, Adoption/Enhancment of Security Scanning & Testing Tools"
+GH Discussion,leondz/garak-822,,Adoption/Enhancment of Security Scanning & Testing Tools
+GH Discussion,TheLastBen/fast-stable-diffusion-1900,Risk of malicious codes in dependencies/plugins,
+GH Discussion,ltdrdata/ComfyUI-Manager-1363,"System/software arbitrary code execution, Data leakages during model training/inference/usage, , , Use of untrusted dependency sources, Unaware compromised infrastructures","User Consent and Warning Mechanisms, Dependency Source Vetting and Control"
+GH Discussion,NexaAI/nexa-sdk-329,Limited capabilities of security tools,
+GH Discussion,Winfredy/SadTalker-273,"Limited capabilities of security tools, Environmental Compatibility Issues",
+GH Discussion,kohya-ss/sd-scripts-313,"Limited capabilities of security tools, System/Software unsafe deserialization, Use of untrusted dependency sources, Risk of malicious codes in dependencies/plugins",Dependency Source Vetting and Control
+GH Discussion,SciSharp/LLamaSharp-1033,"Unsafe memory usage, System resource exhaustions",
+GH Discussion,Tencent/ncnn-3606,"System resource exhaustions, Unsafe memory usage",
+GH Discussion,castorini/pyserini-1741,System resource exhaustions,
+GH Discussion,MahmoudAshraf97/whisper-diarization-128,"Unreliable content filtering mechanism for model output, Failure of Model Generation Control Parameters",
+GH Discussion,w-okada/voice-changer-1447,"Deployment misconfigurations, Improper authentication and authorization",
+GH Discussion,Mozilla-Ocho/llamafile-572,,Modify configurations for enhanced security
+GH Discussion,Mikubill/sd-webui-controlnet-3032,"System resource exhaustions, Outdated third-party dependency/package contains vulnerabilities",
+GH Discussion,Ki6an/fastT5-47,Harmful/Undesired model output,
+GH Discussion,LostRuins/koboldcpp-1190,Harmful/Undesired model output,
+GH Discussion,nuprl/MultiPL-E-61,"Failure of Model Generation Control Parameters, Flawed or insecure prompt/template design",
+GH Discussion,huggingface/text-generation-inference-1412,System/Software unsafe deserialization,"Secure Model Format Adoption, "
+GH Discussion,Linaqruf/kohya-trainer-289,System resource exhaustions,
+GH Discussion,ACEsuit/mace-161,"Unsafe memory usage, System resource exhaustions, File format and loading incompatibility",
+GH Discussion,TencentARC/GFPGAN-567,System resource exhaustions,
+GH Discussion,InternLM/lmdeploy-520,"System resource exhaustions, Deployment misconfigurations",
+GH Discussion,google/jax-13323,System resource exhaustions,
+GH Discussion,comfyanonymous/ComfyUI-5924,System resource exhaustions,
+GH Discussion,mcmonkeyprojects/SwarmUI-299,Deployment misconfigurations,Modify configurations for enhanced security
+GH Discussion,JoePenna/Dreambooth-Stable-Diffusion-167,"System resource exhaustions, Deployment misconfigurations, Environmental Compatibility Issues",
+GH Discussion,kabachuha/sd-webui-text2video-19,"File format and loading incompatibility, Deployment misconfigurations, Environmental Compatibility Issues",
+GH Discussion,kabachuha/sd-webui-text2video-15,"System resource exhaustions, Deployment misconfigurations, Environmental Compatibility Issues",
+GH Discussion,internLM/OpenCompass-967,"System resource exhaustions, Environmental Compatibility Issues",
+GH Discussion,NVIDIA/garak-253,,"Adoption/Enhancment of Security Scanning & Testing Tools, Adoption of vulnerability disclosure and reporting process"
+GH Discussion,AlUlkesh/stable-diffusion-webui-images-browser-4,System/software path traversal,Input Validation and Sanitization
+GH Discussion,34j/so-vits-svc-fork-966,"Improper authentication and authorization, Deployment misconfigurations, Environmental Compatibility Issues",
+GH Discussion,Bing-su/adetailer-470,"System/Software unsafe deserialization, Limited capabilities of security tools",
+GH Discussion,Bing-su/adetailer-476,"System/Software unsafe deserialization, Limited capabilities of security tools",
+GH Discussion,Nerogar/OneTrainer-500,Improper authentication and authorization,
+GH Discussion,mudler/LocalAI-4783,"Improper authentication and authorization, Deployment misconfigurations",
+GH Discussion,NVIDIA/garak-224,Data leakages during model training/inference/usage,"Adoption/Enhancment of Security Scanning & Testing Tools, Adoption of vulnerability disclosure and reporting process"
+GH Discussion,Kosinkadink/ComfyUI-AnimateDiff-Evolved-285,"Flawed or insecure prompt/template design, Model input manipulations and evasions","Secure Prompt Formatting Techniques, Input Validation and Sanitization"
+GH Discussion,Bing-su/adetailer-680,Software Dependencies Compatibility Issues,
+GH Discussion,Mikubill/sd-webui-controlnet-2039,"System/Software unsafe deserialization, System/software arbitrary code execution","Secure Model Format Adoption, "
+GH Discussion,MaartenGr/BERTopic-2219,", Data leakages during model training/inference/usage, Deployment misconfigurations, System/Software unsafe deserialization","Implementation of Data Anonymization, Implementation of Data Access Controls/Guardrails, Secure Deployment Strategies, Secure Model Format Adoption, "
+GH Discussion,michaelfeil/infinity-173,"System/Software unsafe deserialization, Improper authentication and authorization, System/software arbitrary code execution, Using insecure (default) deployment configurations, Deployment misconfigurations","Secure Model Format Adoption, Secure Deployment Strategies, Dependency Source Vetting and Control"
+GH Discussion,coqui-ai/STT-2337,"Using insecure (default) deployment configurations, Unauthorized data collection during usage, Deployment misconfigurations","Implementation of Secure Default Configurations, User Consent and Warning Mechanisms"
+GH Discussion,comfyanonymous/ComfyUI-6264,"Improper authentication and authorization, Using insecure (default) deployment configurations, Outdated third-party dependency/package contains vulnerabilities, Deployment misconfigurations","Component Removal/Replacement, Modify configurations for enhanced security"
+GH Discussion,ltdrdata/ComfyUI-Manager-1132,"Using insecure (default) deployment configurations, Use of untrusted dependency sources",
+GH Discussion,DominikDoom/a1111-sd-webui-tagcomplete-134,"Using insecure (default) deployment configurations, ",Implementation of Secure Default Configurations
+GH Discussion,ACEsuit/mace-744,"System/Software unsafe deserialization, System/software arbitrary code execution",
+GH Discussion,IGNF/myria3d-76,"Unsafe memory usage, System resource exhaustions, Environmental Compatibility Issues",
+GH Discussion,JaidedAI/EasyOCR-1089,Unsafe memory usage,
+GH Discussion,nvlabs/instant-ngp-1074,"Environmental Compatibility Issues, Unsafe memory usage",
+GH Discussion,NVIDIA/NeMo-5405,"Unsafe memory usage, Software Dependencies Compatibility Issues",
+GH Discussion,comfyanonymous/ComfyUI-5334,"Environmental Compatibility Issues, Software Dependencies Compatibility Issues",
+GH Discussion,NVIDIA/NeMo-6577,Software Dependencies Compatibility Issues,
+GH Discussion,stanfordnlp/CoreNLP-1429,Outdated third-party dependency/package contains vulnerabilities,Dependency Version Upgrade
+GH Discussion,comfyanonymous/ComfyUI-6126,"Software Dependencies Compatibility Issues, Outdated third-party dependency/package contains vulnerabilities",Use of Isolated Processes for Dependencies
+GH Discussion,synthetichealth/synthea-1145,Outdated third-party dependency/package contains vulnerabilities,Dependency Version Upgrade
+GH Discussion,microsoft/onnxruntime-15309,"Deployment misconfigurations, Outdated third-party dependency/package contains vulnerabilities, ","Secure Deployment Strategies, "
+GH Discussion,openai/openai-python-1455,"Software Dependencies Compatibility Issues, Exposed system details and information in APIs",
+GH Discussion,DS4SD/docling-355,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations",
+GH Discussion,thygate/stable-diffusion-webui-depthmap-script-174,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations",
+GH Discussion,Mikubill/sd-webui-controlnet-1745,"Insecure communication due to missing certificates or protocols, Outdated third-party dependency/package contains vulnerabilities, Deployment misconfigurations",
+GH Discussion,synthetichealth/synthea-1263,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations",
+GH Discussion,facebookresearch/esm-665,"Insecure communication due to missing certificates or protocols,",
+GH Discussion,Bing-su/adetailer-563,"System/Software unsafe deserialization, System/software arbitrary code execution, Limited capabilities of security tools",
+GH Discussion,TheLastBen/fast-stable-diffusion-525,"System/Software unsafe deserialization, System/software arbitrary code execution, , Use of untrusted dependency sources","Secure Model Format Adoption, Dependency Source Vetting and Control, Adoption/Enhancment of Security Scanning & Testing Tools, "
+GH Discussion,LostRuins/koboldcpp-793,"Limited capabilities of security tools, System/Software unsafe deserialization",
+GH Discussion,google/jax-15417,System/Software unsafe deserialization,"Secure Model Format Adoption, Secure Deserialization Practices"
+GH Discussion,ThisIs-Developer/Llama-2-GGML-Medical-Chatbot-47,"System/Software unsafe deserialization, System/software arbitrary code execution, Use of untrusted dependency sources","Dependency Source Vetting and Control, Secure Model Format Adoption"
+GH Discussion,infiniflow/ragflow-4580,,Adoption/Enhancment of Security Scanning & Testing Tools
+HF Discussion,stabilityai/stable-diffusion-xl-base-1.0-100,Improper authentication and authorization,Authorization & Permission Controls
+HF Discussion,mistralai/Mistral-7B-Instruct-v0.2-71,Deployment misconfigurations	,Authorization & Permission Controls
+HF Discussion,AGBonnet/medinote-7b-3,Security risk from deficient data quality,
+HF Discussion,ISTA-DASLab/AQLM-executorch-1,"Environmental Compatibility Issues, ",
+HF Discussion,meta-llama/Llama-3.1-8B-Instruct-60,Environmental Compatibility Issues	,
+HF Discussion,lmsys/vicuna-33b-v1.3-2,"File format and loading incompatibility, Software Dependencies Compatibility Issues, Environmental Compatibility Issues	",
+HF Discussion,mistralai/Mistral-7B-Instruct-v0.2-139,"Harmful/Undesired model output, Failure of Model Generation Control Parameters",
+HF Discussion,dunzhang/stella_en_400M_v5-22,"System/software arbitrary code execution, Use of untrusted dependency sources	","Secure Code Execution Implementation, Secure Deployment Strategies"
+HF Discussion,TheBloke/Nous-Hermes-13B-GPTQ-6,"Limited capabilities of security tools, System/Software unsafe deserialization", Adoption/Enhancment of Security Scanning & Testing Tools
+HF Discussion,minishlab/potion-base-8M-2,Limited capabilities of security tools,
+HF Discussion,TheBloke/deepseek-coder-33B-instruct-GGUF-2,"File format and loading incompatibility, Software Dependencies Compatibility Issues, Unsafe memory usage, Harmful/Undesired model output",
+HF Discussion,Mozilla/Meta-Llama-3-8B-Instruct-llamafile-1,"Limited capabilities of security tools, System/Software unsafe deserialization",
+HF Discussion,OuteAI/OuteTTS-0.1-350M-5,File format and loading incompatibility,
+HF Discussion,berkeley-nest/Starling-LM-7B-alpha-18,"Flawed or insecure prompt/template design, Data leakages during model training/inference/usage, Harmful/Undesired model output",
+HF Discussion,intfloat/multilingual-e5-base-19,"Outdated third-party dependency/package contains vulnerabilities, Risk of malicious codes in dependencies/plugins, Improper authentication and authorization, Deployment misconfigurations","Secure Code Execution Implementation, Modify configurations for enhanced security"
+HF Discussion,bartowski/Meta-Llama-3.1-8B-Instruct-GGUF-7,", Limited capabilities of security tools,","Dependency Source Vetting and Control, "
+HF Discussion,bullerwins/Meta-Llama-3.1-8B-Instruct-GGUF-2,", Limited capabilities of security tools",
+HF Discussion,TheBloke/zephyr-7B-beta-GGUF-12,", Limited capabilities of security tools",Adoption/Enhancment of Security Scanning & Testing Tools
+HF Discussion,FacebookAI/roberta-large-4,,Adoption of vulnerability disclosure and reporting process
+HF Discussion,Alpha-VLLM/Lumina-Next-T2I-1,"System/Software unsafe deserialization, Risk of malicious codes in dependencies/plugins","Secure Model Format Adoption, "
+HF Discussion,TriadParty/deepsex-34b-8,"System/software arbitrary code execution, ",Secure Code Execution Implementation
+HF Discussion,nlpcloud/instruct-gpt-j-fp16-5,"System resource exhaustions, Unsafe memory usage",
+HF Discussion,mistralai/Mixtral-8x7B-Instruct-v0.1-202,"Improper authentication and authorization, ",
+HF Discussion,mistralai/Mistral-7B-Instruct-v0.2-93,"Improper authentication and authorization, ",
+HF Discussion,meta-llama/Llama-3.1-8B-Instruct-107,"Improper authentication and authorization, ",Authorization & Permission Controls
+HF Discussion,cognitivecomputations/dolphin-2.0-mistral-7b-3,"Flawed or insecure prompt/template design, File format and loading incompatibility, ",
+HF Discussion,mistralai/Mistral-7B-Instruct-v0.3-68,"Flawed or insecure prompt/template design, Software Dependencies Compatibility Issues",
+HF Discussion,cgato/TheSpice-7b-v0.1.1-1,"System/Software unsafe deserialization, System/software arbitrary code execution","Secure Model Format Adoption, "
+HF Discussion,briaai/BRIA-2.3-ControlNet-Generative-Fill-1,System/Software unsafe deserialization,Secure Model Format Adoption
+HF Discussion,stabilityai/stable-diffusion-3-medium-195,"Deployment misconfigurations, ",
+HF Discussion,Alibaba-NLP/gte-multilingual-base-22,,"Secure Deployment Strategies, Adoption/Enhancment of Security Scanning & Testing Tools"
+HF Discussion,rocca/openai-clip-js-1,"Using insecure (default) deployment configurations, Data leakages during model training/inference/usage",
+HF Discussion,mistralai/Mistral-Small-Instruct-2409-10,"Flawed or insecure prompt/template design, Harmful/Undesired model output, Model input manipulations and evasions",Secure Prompt Formatting Techniques
+HF Discussion,Delcos/Hentai-Diffusion-12,"Limited capabilities of security tools, System/Software unsafe deserialization, System/software arbitrary code execution, Use of untrusted dependency sources",", Adoption/Enhancment of Security Scanning & Testing Tools"
+HF Discussion,Mozilla/llava-v1.5-7b-llamafile-7,"Limited capabilities of security tools, System/Software unsafe deserialization",
+HF Discussion,openai/whisper-large-v3-36,System/Software unsafe deserialization,"Secure Model Format Adoption, "
+HF Discussion,timdettmers/guanaco-65b-3,"System/Software unsafe deserialization, System/software arbitrary code execution",Secure Model Format Adoption
+HF Discussion,mkiani/gpt2-system-1,Unsafe OS command execution and environment variable handling,Secure Code Execution Implementation
+HF Discussion,StephanST/WALDO30-2,"System/Software unsafe deserialization, System/software arbitrary code execution, Limited capabilities of security tools","Secure Model Format Adoption, "
+HF Discussion,OpenGVLab/InternVideo2-Stage2_1B-224p-f4-1,"System/Software unsafe deserialization, , Limited capabilities of security tools",
+HF Discussion,transfo-xl/transfo-xl-wt103-3,Outdated third-party dependency/package contains vulnerabilities,
+HF Discussion,AetherArchitectural/Community-Discussions-20,"Limited capabilities of security tools, System/Software unsafe deserialization, File format and loading incompatibility",
+HF Discussion,ALmonster/ChemGPT2-QA-72B-1,"System/Software unsafe deserialization, File format and loading incompatibility",Dependency Source Vetting and Control
+HF Discussion,GerMedBERT/medbert-512-3,File format and loading incompatibility,Implementation of Data Anonymization
+HF Discussion,togethercomputer/RedPajama-INCITE-7B-Instruct-4,Data leakages during model training/inference/usage,Secure Prompt Formatting Techniques
+HF Discussion,01-ai/Yi-34B-35,"Deployment misconfigurations, System resource exhaustions",
+HF Discussion,chavinlo/alpaca-native-19,"File format and loading incompatibility, Environmental Compatibility Issues",
+HF Discussion,meta-llama/Prompt-Guard-86M-15,"Unreliable content filtering mechanism for model output, Model input manipulations and evasions, Limited capabilities of security tools",
+HF Discussion,AUTOMATIC/promptgen-lexart-2,"Risk of malicious codes in dependencies/plugins, Limited capabilities of security tools",Secure Model Format Adoption
+HF Discussion,Felix92/doctr-torch-parseq-multilingual-v1-1,"Unreliable content filtering mechanism for model output, Deployment misconfigurations",
+HF Discussion,CohereForAI/c4ai-command-r-08-2024-3,"Deployment misconfigurations, ",
+HF Discussion,FredZhang7/google-safesearch-mini-v2-1,"Deployment misconfigurations, File format and loading incompatibility",
+HF Discussion,HuggingFaceM4/idefics-9b-instruct-12,"Deployment misconfigurations, File format and loading incompatibility, System resource exhaustions",Modify configurations for enhanced security
+HF Discussion,OpenAssistant/oasst-sft-6-llama-30b-xor-24,"File format and loading incompatibility,  Deployment misconfigurations, Harmful/Undesired model output, Flawed or insecure prompt/template design, Failure of Model Generation Control Parameters",
+HF Discussion,Kijai/flux-fp8-4,"Improper authentication and authorization, , Software Dependencies Compatibility Issues, Outdated third-party dependency/package contains vulnerabilities",
+HF Discussion,JCTN/pygmalion-13b-4bit-128g-1,Environmental Compatibility Issues,
+HF Discussion,Guernika/CoreMLStableDiffusion-36,"File format and loading incompatibility, Software Dependencies Compatibility Issues, Harmful/Undesired model output",
+HF Discussion,TheBloke/Pygmalion-7B-SuperHOT-8K-GPTQ-1,"File format and loading incompatibility, Use of untrusted dependency sources, Software Dependencies Compatibility Issues",
+HF Discussion,Kijai/flux-fp8-21,"Software Dependencies Compatibility Issues, Outdated third-party dependency/package contains vulnerabilities",Dependency Version Upgrade
+HF Discussion,HF1BitLLM/Llama3-8B-1.58-100B-tokens-3,File format and loading incompatibility,
+HF Discussion,ByteDance/SDXL-Lightning-25,"Unreliable content filtering mechanism for model output, Deployment misconfigurations",
+HF Discussion,BestJammer/HASDX-3,"System resource exhaustions, System/Software unsafe deserialization","Adoption/Enhancment of Security Scanning & Testing Tools, Memory Safety & Resource Management Techniques"
+HF Discussion,Aitrepreneur/InstantID-Controlnet-1,"System resource exhaustions, Deployment misconfigurations",Memory Safety & Resource Management Techniques
+HF Discussion,asoderznik/sdx4-upscaler-1,"Limited capabilities of security tools, Risk of malicious codes in dependencies/plugins, System/Software unsafe deserialization",
+HF Discussion,WarriorMama777/OrangeMixs-81,"Limited capabilities of security tools, System/Software unsafe deserialization",Secure Model Format Adoption
+HF Discussion,mistral-community/pixtral-12b-240910-11,Limited capabilities of security tools,
+HF Discussion,grimjim/rogue-enchantress-32k-7B-1,"Harmful/Undesired model output, Flawed or insecure prompt/template design, File format and loading incompatibility",
+HF Discussion,mlabonne/NeuralMarcoro14-7B-2,"Harmful/Undesired model output, Flawed or insecure prompt/template design, Failure of Model Generation Control Parameters",
+HF Discussion,HuggingFaceM4/idefics2-8b-80,Harmful/Undesired model output,Dependency Version Upgrade
+HF Discussion,monster-labs/control_v1p_sd15_qrcode_monster-113,"System/Software unsafe deserialization, Risk of malicious codes in dependencies/plugins","Secure Model Format Adoption, "
+HF Discussion,WarriorMama777/OrangeMixs-18,System/Software unsafe deserialization,"Secure Model Format Adoption, "
+HF Discussion,astronomer/Llama-3-8B-Instruct-GPTQ-8-Bit-2,"System/Software unsafe deserialization, System/software arbitrary code execution","Secure Model Format Adoption, "
+HF Discussion,HuggingFaceH4/zephyr-7b-beta-8,System/Software unsafe deserialization,"Secure Model Format Adoption, "
+HF Discussion,TencentARC/T2I-Adapter-8,System/Software unsafe deserialization,"Secure Model Format Adoption, "
+HF Discussion,fishaudio/fish-speech-1.4-10,System/Software unsafe deserialization,"Secure Model Format Adoption, "
+HF Discussion,Alibaba-NLP/new-impl-2,"Deployment misconfigurations, System/software arbitrary code execution, Software Dependencies Compatibility Issues, Deployment misconfigurations","Modify configurations for enhanced security, Secure Deployment Strategies"
+HF Discussion,bigscience/bloomz-18,"System resource exhaustions, Environmental Compatibility Issues",
+HF Discussion,Aitrepreneur/FLUX-Prompt-Generator-1,"Deployment misconfigurations, Outdated third-party dependency/package contains vulnerabilities, Software Dependencies Compatibility Issues",Secure Deployment Strategies
+HF Discussion,CompVis/stable-diffusion-safety-checker-38,Software Dependencies Compatibility Issues,
+HF Discussion,Xenova/modnet-4,Software Dependencies Compatibility Issues,
+HF Discussion,OpenNLPLab/TransNormerLLM-7B-1,Unsafe OS command execution and environment variable handling,
+HF Discussion,JackAnon/GorynichMix-1,System/Software unsafe deserialization,"Secure Model Format Adoption, "
+HF Discussion,JackAnon/GorynichMix-2,"System/Software unsafe deserialization, Risk of malicious codes in dependencies/plugins, Limited capabilities of security tools",Secure Model Format Adoption
+HF Discussion,flair/ner-english-2,"System/Software unsafe deserialization, Limited capabilities of security tools",
+HF Discussion,Kijai/LivePortrait_safetensors-4,"System/Software unsafe deserialization, Limited capabilities of security tools",
+HF Discussion,stabilityai/stable-diffusion-x4-upscaler-18,"Limited capabilities of security tools, Risk of malicious codes in dependencies/plugins",
+HF Discussion,roubaofeipi/UltraPixel-1,System/Software unsafe deserialization,"Secure Model Format Adoption, "
+HF Discussion,chflame163/ComfyUI_LayerStyle-5,Limited capabilities of security tools,
+HF Discussion,gsdf/Counterfeit-V2.5-14,Limited capabilities of security tools,
+HF Discussion,m4gnett/zeipher-f222-1,"Limited capabilities of security tools, Risk of malicious codes in dependencies/plugins",Adoption/Enhancment of Security Scanning & Testing Tools
+GH Issue,AUTOMATIC1111/stable-diffusion-webui-16715,"Outdated third-party dependency/package contains vulnerabilities, System/software open redirect","Dependency Version Upgrade, Input Validation and Sanitization"
+GH Issue,CopilotKit/CopilotKit-667,,Adoption of vulnerability disclosure and reporting process
+GH Issue,IBM/text-generation-inference-109,"Outdated third-party dependency/package contains vulnerabilities, Unsafe memory usage, System resource exhaustions,  System/software path traversal",Dependency Version Upgrade
+GH Issue,LAION-AI/Open-Assistant-3546,Outdated third-party dependency/package contains vulnerabilities	,Dependency Version Upgrade
+GH Issue,LibreTranslate/LibreTranslate-287,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions, Unsafe memory usage, System/software arbitrary code execution, System/software path traversal, Unsafe OS command execution and environment variable handling, ","Dependency Version Upgrade, Component Removal/Replacement"
+GH Issue,NVIDIA/apex-1552,"Outdated third-party dependency/package contains vulnerabilities, Unsafe memory usage, System resource exhaustions",Dependency Version Upgrade
+GH Issue,PaddlePaddle/PaddleNLP-4040,"Outdated third-party dependency/package contains vulnerabilities, System/software path traversal, Data leakages during model training/inference/usage",Dependency Version Upgrade
+GH Issue,QwenLM/Qwen2-1180,"Outdated third-party dependency/package contains vulnerabilities, System/software arbitrary code execution, Security risk from deficient data quality, Unsafe memory usage",Dependency Version Upgrade
+GH Issue,RVC-Project/Retrieval-based-Voice-Conversion-WebUI-2447,,Adoption of vulnerability disclosure and reporting process
+GH Issue,Sanster/lama-cleaner-334,"Outdated third-party dependency/package contains vulnerabilities, System/software arbitrary code execution",Dependency Version Upgrade
+GH Issue,bmaltais/kohya_ss-2663,"Outdated third-party dependency/package contains vulnerabilities, System/software path traversal",Dependency Version Upgrade
+GH Issue,danielgatis/rembg-657,,Adoption of vulnerability disclosure and reporting process
+GH Issue,deepinsight/insightface-2167,"Outdated third-party dependency/package contains vulnerabilities, Data tampering during deployments",Dependency Version Upgrade
+GH Issue,deepset-ai/haystack-7336,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions",Dependency Version Upgrade
+GH Issue,deepset-ai/haystack-8691,"Outdated third-party dependency/package contains vulnerabilities, System/Software unsafe deserialization",Secure Code Execution Implementation
+GH Issue,gradio-app/gradio-10110,Outdated third-party dependency/package contains vulnerabilities,Dependency Version Upgrade
+GH Issue,h2oai/h2o-llmstudio-633,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions, Unsafe memory usage, Security risk from deficient data quality, System/software arbitrary code execution",
+GH Issue,h2oai/h2ogpt-1491,"Outdated third-party dependency/package contains vulnerabilities, System/software arbitrary code execution, Insecure communication due to missing certificates or protocols, System/software arbitrary code execution, System/software Request Forgery","Dependency Version Upgrade, Adoption/Enhancment of Security Scanning & Testing Tools"
+GH Issue,huggingface/autotrain-advanced-848,"Model input manipulations and evasions, Harmful/Undesired model output	","Input Validation and Sanitization, Implementation of Content Safety Filters/Checkers, Secure Prompt Formatting Techniques"
+GH Issue,huggingface/transformers-21973,,Adoption of vulnerability disclosure and reporting process
+GH Issue,huggingface/transformers-29256,,Adoption of vulnerability disclosure and reporting process
+GH Issue,jantic/DeOldify-436,"Outdated third-party dependency/package contains vulnerabilities, Unsafe memory usage",Dependency Version Upgrade
+GH Issue,jmorganca/ollama-5757,"Outdated third-party dependency/package contains vulnerabilities,System resource exhaustions",Dependency Version Upgrade
+GH Issue,jmorganca/ollama-5774,Outdated third-party dependency/package contains vulnerabilities,
+GH Issue,jmorganca/ollama-8020,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions, Exposed system details and information in APIs",
+GH Issue,jmorganca/ollama-8724,"Outdated third-party dependency/package contains vulnerabilities, ",Dependency Version Upgrade
+GH Issue,keras-team/keras-19213,,Adoption of vulnerability disclosure and reporting process
+GH Issue,keras-team/keras-cv-2141,,Adoption of vulnerability disclosure and reporting process
+GH Issue,keras-team/keras-cv-2142,,Adoption of vulnerability disclosure and reporting process
+GH Issue,keras-team/keras-tuner-979,,Adoption of vulnerability disclosure and reporting process
+GH Issue,langchain-ai/langchain-4974,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions, ",Component Removal/Replacement
+GH Issue,langchain-ai/langchain-5294,"System/software arbitrary code execution, Risk of malicious codes in dependencies/plugins, Model input manipulations and evasions, ",
+GH Issue,langchain-ai/langchain-7736,"Outdated third-party dependency/package contains vulnerabilities,
+System/software arbitrary code execution, Unsafe OS command execution and environment variable handling, ",
+GH Issue,langchain-ai/langchain-19660,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions",Dependency Version Upgrade
+GH Issue,langchain-ai/langchain-21464,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions",
+GH Issue,langchain-ai/langchain-21592,"System/software arbitrary code execution, Model input manipulations and evasions",
+GH Issue,liujing04/Retrieval-based-Voice-Conversion-WebUI-2447,,Adoption of vulnerability disclosure and reporting process
+GH Issue,matterport/Mask_RCNN-2905,"Outdated third-party dependency/package contains vulnerabilities,  System resource exhaustions",Dependency Version Upgrade
+GH Issue,matterport/Mask_RCNN-2913,Outdated third-party dependency/package contains vulnerabilities,Dependency Version Upgrade
+GH Issue,meta-llama/llama-stack-41,,Adoption of vulnerability disclosure and reporting process
+GH Issue,microsoft/botframework-cli-1369,"Outdated third-party dependency/package contains vulnerabilities, Risk of malicious codes in dependencies/plugins",Dependency Version Upgrade
+GH Issue,microsoft/botframework-cli-1388,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions",Dependency Version Upgrade
+GH Issue,microsoft/onnxruntime-10733,Outdated third-party dependency/package contains vulnerabilities,
+GH Issue,microsoft/onnxruntime-23361,"Outdated third-party dependency/package contains vulnerabilities, Security risk from deficient data quality",
+GH Issue,microsoft/unilm-950,"Outdated third-party dependency/package contains vulnerabilities, System/software arbitrary code execution, System/software Cross-Site Scripting ",Dependency Version Upgrade
+GH Issue,microsoft/unilm-985,Outdated third-party dependency/package contains vulnerabilities,Dependency Version Upgrade
+GH Issue,mudler/LocalAI-2538,"Outdated third-party dependency/package contains vulnerabilities,",Dependency Version Upgrade
+GH Issue,ollama/ollama-5757,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions",Dependency Version Upgrade
+GH Issue,ollama/ollama-5774,"Outdated third-party dependency/package contains vulnerabilities,  System resource exhaustions, ",
+GH Issue,ollama/ollama-8020,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions, Exposed system details and information in APIs",
+GH Issue,ollama/ollama-8724,Outdated third-party dependency/package contains vulnerabilities,
+GH Issue,oobabooga/text-generation-webui-6574,"Outdated third-party dependency/package contains vulnerabilities, System/software open redirect","Dependency Version Upgrade, Input Validation and Sanitization"
+GH Issue,open-mmlab/mmdetection-11822,"Outdated third-party dependency/package contains vulnerabilities, Software Dependencies Compatibility Issues",
+GH Issue,openai/jukebox-270,Outdated third-party dependency/package contains vulnerabilities,Dependency Version Upgrade
+GH Issue,openai/triton-489,"Outdated third-party dependency/package contains vulnerabilities, Unsafe memory usage",Dependency Version Upgrade
+GH Issue,openai/whisper-2041,,Adoption of vulnerability disclosure and reporting process
+GH Issue,pandas-dev/pandas-36256,"Outdated third-party dependency/package contains vulnerabilities, System/Software unsafe deserialization",Component Removal/Replacement
+GH Issue,pandas-dev/pandas-48049,"System/software arbitrary code execution, System/Software unsafe deserialization",Secure Deserialization Practices
+GH Issue,pandas-dev/pandas-54036,Outdated third-party dependency/package contains vulnerabilities,
+GH Issue,pandas-dev/pandas-59613,System/software path traversal,
+GH Issue,pandas-dev/pandas-60602,System/software arbitrary code execution,
+GH Issue,pandas-dev/pandas-60657,Outdated third-party dependency/package contains vulnerabilities,
+GH Issue,pixie-io/pixie-1235,Outdated third-party dependency/package contains vulnerabilities,Dependency Version Upgrade
+GH Issue,pixie-io/pixie-1895,Outdated third-party dependency/package contains vulnerabilities,
+GH Issue,pjreddie/darknet-959,"Unsafe memory usage, Unsafe OS command execution and environment variable handling","Secure Code Execution Implementation, Memory Safety & Resource Management Techniques"
+GH Issue,pytorch/pytorch-32147,"Outdated third-party dependency/package contains vulnerabilities, Unsafe memory usage, Data leakages during model training/inference/usage",Dependency Version Upgrade
+GH Issue,pytorch/pytorch-112876,Outdated third-party dependency/package contains vulnerabilities,
+GH Issue,pytorch/pytorch-118128,"Outdated third-party dependency/package contains vulnerabilities, System/Software unsafe deserialization, System resource exhaustions",Dependency Version Upgrade
+GH Issue,pytorch/pytorch-120530,,Adoption of vulnerability disclosure and reporting process
+GH Issue,pytorch/pytorch-126869,"Outdated third-party dependency/package contains vulnerabilities, Insecure communication due to missing certificates or protocols",Dependency Version Upgrade
+GH Issue,pytorch/pytorch-129876,"Outdated third-party dependency/package contains vulnerabilities, Unsafe memory usage",
+GH Issue,pytorch/pytorch-134664,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions",
+GH Issue,pytorch/pytorch-139045,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions",Dependency Version Upgrade
+GH Issue,sgl-project/sglang-3343,,Adoption of vulnerability disclosure and reporting process
+GH Issue,stanfordnlp/CoreNLP-1324,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions",Dependency Version Upgrade
+GH Issue,stanfordnlp/CoreNLP-1329,"Outdated third-party dependency/package contains vulnerabilities, System/software arbitrary code execution",Component Removal/Replacement
+GH Issue,stanfordnlp/glove-192,Unsafe memory usage,Input Validation and Sanitization
+GH Issue,tensorflow/models-10546,,Adoption of vulnerability disclosure and reporting process
+GH Issue,tensorflow/tensorflow-33064,"Outdated third-party dependency/package contains vulnerabilities, Unsafe memory usage",Dependency Version Upgrade
+GH Issue,tensorflow/tensorflow-55772,"Outdated third-party dependency/package contains vulnerabilities, Insecure communication due to missing certificates or protocols, Data leakages during model training/inference/usage, Improper authentication and authorization",Dependency Version Upgrade
+GH Issue,tensorflow/tensorflow-56060,"Outdated third-party dependency/package contains vulnerabilities, Insecure communication due to missing certificates or protocols, System resource exhaustions, System/software path traversal, Data leakages during model training/inference/usage",Dependency Version Upgrade
+GH Issue,tensorflow/tensorflow-57563,"Outdated third-party dependency/package contains vulnerabilities, Security risk from deficient data quality",Dependency Version Upgrade
+GH Issue,tensorflow/tensorflow-59164,"Outdated third-party dependency/package contains vulnerabilities, Unsafe memory usage, Data leakages during model training/inference/usage, Insecure communication due to missing certificates or protocols",Dependency Version Upgrade
+GH Issue,tensorflow/tensorflow-59225,"Outdated third-party dependency/package contains vulnerabilities,  Unsafe memory usage, Data leakages during model training/inference/usage, Insecure communication due to missing certificates or protocols, ",
+GH Issue,tensorflow/tensorflow-69799,"Outdated third-party dependency/package contains vulnerabilities, Insecure communication due to missing certificates or protocols, Data leakages during model training/inference/usage",Dependency Version Upgrade
+GH Issue,tensorflow/tensorflow-72282,"Outdated third-party dependency/package contains vulnerabilities, System/software path traversal",
+GH Issue,tensorflow/tensorflow-77843,Outdated third-party dependency/package contains vulnerabilities,
+GH Issue,tensorflow/tensorflow-79955,"Outdated third-party dependency/package contains vulnerabilities, Insecure communication due to missing certificates or protocols, Unsafe memory usage, Data leakages during model training/inference/usage, System resource exhaustions",Dependency Version Upgrade
+GH Issue,triton-lang/triton-489,"Outdated third-party dependency/package contains vulnerabilities, Unsafe memory usage,",Dependency Version Upgrade
+GH Issue,ultralytics/yolov3-1672,System/Software unsafe deserialization,Secure Deserialization Practices
+GH Issue,ultralytics/yolov5-7703,Outdated third-party dependency/package contains vulnerabilities,Dependency Version Upgrade
+GH Issue,vllm-project/vllm-8353,,Adoption/Enhancment of Security Scanning & Testing Tools
+GH Issue,xinntao/Real-ESRGAN-627,"Outdated third-party dependency/package contains vulnerabilities, System/software arbitrary code execution",Dependency Version Upgrade
+GH Issue,xorbitsai/inference-1651,"Outdated third-party dependency/package contains vulnerabilities, System/software arbitrary code execution, System resource exhaustions, System/software open redirect, System/software path traversal",
+GH Issue,xorbitsai/inference-1674,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions, System/software open redirect, System/software path traversal",Dependency Version Upgrade
+GH Issue,zhaoolee/ChineseBQB-152,"Outdated third-party dependency/package contains vulnerabilities, System resource exhaustions",Dependency Version Upgrade
+GH Issue,zhaoolee/ChineseBQB-153,"Outdated third-party dependency/package contains vulnerabilities, System/software Request Forgery",Dependency Version Upgrade
+GH Issue,zhaoolee/ChineseBQB-154,"Outdated third-party dependency/package contains vulnerabilities, System/software Request Forgery",Dependency Version Upgrade
+GH Discussion,mudler/LocalAI-876,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations, ",
+GH Discussion,nomic-ai/gpt4all-3193,Deployment misconfigurations,
+GH Discussion,microsoft/onnxruntime-22105,"Outdated third-party dependency/package contains vulnerabilities, Risk of malicious codes in dependencies/plugins, , , Limited capabilities of security tools",", Dependency Source Vetting and Control, Use of Dependency Management Tools"
+GH Discussion,stanfordnlp/CoreNLP-1403,"Insecure communication due to missing certificates or protocols, Using insecure (default) deployment configurations,  , ","Secure Communication Protocol Usage, , Modify configurations for enhanced security"
+GH Discussion,thewh1teagle/sherpa-rs-81,"Use of untrusted dependency sources, Risk of malicious codes in dependencies/plugins,  Using insecure (default) deployment configurations","Dependency Source Vetting and Control,  Implementation of Secure Default Configurations"
+GH Discussion,leondz/garak-1104,"Limited capabilities of security tools, ",Adoption/Enhancment of Security Scanning & Testing Tools
+GH Discussion,hiyouga/LLaMA-Efficient-Tuning-5609,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations,","Secure Communication Protocol Usage, Modify configurations for enhanced compatibility, Secure Deployment Strategies"
+GH Discussion,mudler/LocalAI-3587,"Deployment misconfigurations, Using insecure (default) deployment configurations",
+GH Discussion,facebookresearch/detectron2-5200,"Use of untrusted dependency sources, Software Dependencies Compatibility Issues, Risk of malicious codes in dependencies/plugins,  "," Dependency Source Vetting and Control, "
+GH Discussion,mudler/LocalAI-2610,"Improper authentication and authorization, Using insecure (default) deployment configurations","Implementation of Authentication Mechanisms, Authorization & Permission Controls, Modify configurations for enhanced security, Implementation of Secure Default Configurations"
+GH Discussion,open-mmlab/mmcv-3211,"Use of untrusted dependency sources, Software Dependencies Compatibility Issues, Risk of malicious codes in dependencies/plugins,  ","Dependency Source Vetting and Control, "
+GH Discussion,microsoft/semantic-kernel-10029,"Insecure communication due to missing certificates or protocols, Environmental Compatibility Issues, Software Dependencies Compatibility Issues, Deployment misconfigurations","Secure Communication Protocol Usage, Component Removal/Replacement"
+GH Discussion,microsoft/onnxruntime-22110,Software Dependencies Compatibility Issues,"Secure Code Execution Implementation, Use of Isolated Processes for Dependencies"
+GH Discussion,mudler/LocalAI-2446,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations,","Secure Communication Protocol Usage,"
+GH Discussion,LostRuins/llamacpp-for-kobold-793,"Limited capabilities of security tools, Risk of malicious codes in dependencies/plugins",
+GH Discussion,microsoft/semantic-kernel-10345,"Unreliable content filtering mechanism for model output, Harmful/Undesired model output, Exposed system details and information in APIs, , ",",  Implementation of Content Safety Filters/Checkers"
+GH Discussion,34j/so-vits-svc-fork-765,"Unauthorized data collection during usage, Data leakages during model training/inference/usage, Risk of malicious codes in dependencies/plugins, ",
+GH Discussion,microsoft/autogen-4656,Improper authentication and authorization,"Implementation of Authentication Mechanisms, Authorization & Permission Controls, , Secure Communication Protocol Usage"
+GH Discussion,stanfordnlp/CoreNLP-1366,Insecure communication due to missing certificates or protocols,Secure Communication Protocol Usage
+GH Discussion,microsoft/autogen-4101,"Insecure communication due to missing certificates or protocols, Using insecure (default) deployment configurations, Deployment misconfigurations",
+HF Discussion,meta-llama/Llama-3.2-1B-Instruct-42,"Improper authentication and authorization, ",
+HF Discussion,google/gemma-2-2b-it-57,Software Dependencies Compatibility Issues	,Dependency Version Upgrade
+HF Discussion,qualcomm/Stable-Diffusion-2,"Environmental Compatibility Issues, Software Dependencies Compatibility Issues ",Modify configurations for enhanced compatibility
+HF Discussion,abacusai/Liberated-Qwen1.5-72B-1,System/Software unsafe deserialization	,Secure Model Format Adoption
+HF Discussion,TheBloke/falcon-40b-instruct-GPTQ-15,"Deployment misconfigurations, Software Dependencies Compatibility Issues, Environmental Compatibility Issues",Modify configurations for enhanced compatibility
+HF Discussion,dunzhang/stella_en_1.5B_v5-11,Software Dependencies Compatibility Issues,"Dependency Version Upgrade, Secure Code Execution Implementation"
+HF Discussion,jinaai/jina-embeddings-v3-47,"Software Dependencies Compatibility Issues, Environmental Compatibility Issues",Dependency Version Upgrade
+HF Discussion,alefiury/wav2vec2-large-xlsr-53-gender-recognition-librispeech-3,System resource exhaustions,
+HF Discussion,CompVis/stable-diffusion-v-1-4-original-192,Environmental Compatibility Issues	,
+HF Discussion,CohereForAI/c4ai-command-r-v01-4bit-12,File format and loading incompatibility,
+HF Discussion,LoneStriker/dolphin-2.2-yi-34b-4.0bpw-h6-exl2-1,"Deployment misconfigurations, File format and loading incompatibility, Harmful/Undesired model output",Modify configurations for enhanced security
+HF Discussion,ISTA-DASLab/Llama-3.2-1B-AQLM-PV-2Bit-2x8-1,"File format and loading incompatibility, Harmful/Undesired model output",
+HF Discussion,michaelfeil/ct2fast-opus-mt-ROMANCE-en-1,Software Dependencies Compatibility Issues	,
+HF Discussion,llmware/dragon-yi-6b-v0-1,Software Dependencies Compatibility Issues,"Dependency Version Upgrade, Secure Code Execution Implementation"
+HF Discussion,TheBloke/stable-vicuna-13B-GPTQ-1,"File format and loading incompatibility, Deployment misconfigurations, Flawed or insecure prompt/template design, Harmful/Undesired model output,","Modify configurations for enhanced security, Secure Prompt Formatting Techniques"
+HF Discussion,TheBloke/Vicuna-13B-1.1-GPTQ-16,"Software Dependencies Compatibility Issues, File format and loading incompatibility	",Modify configurations for enhanced compatibility
+HF Discussion,stabilityai/stable-diffusion-xl-base-0.9-25,"Deployment misconfigurations, Improper authentication and authorization, Outdated third-party dependency/package contains vulnerabilities",Dependency Version Upgrade
+HF Discussion,ctheodoris/Geneformer-281,,Use of Dependency Management Tools
+HF Discussion,stabilityai/stablecode-instruct-alpha-3b-5,"Improper authentication and authorization, , File format and loading incompatibility",Modify configurations for enhanced security
+HF Discussion,kampkelly/fakeimagedetection-1,"File format and loading incompatibility, Software Dependencies Compatibility Issues",Modify configurations for enhanced security
+HF Discussion,Narsil/riffusion-2,Outdated third-party dependency/package contains vulnerabilities,Dependency Version Upgrade
+HF Discussion,llava-hf/llava-1.5-7b-hf-41,"Software Dependencies Compatibility Issues, File format and loading incompatibility	",Dependency Version Upgrade
+HF Discussion,CompVis/stable-diffusion-v-1-4-original-256,"Deployment misconfigurations, Software Dependencies Compatibility Issues, Environmental Compatibility Issues	",
+HF Discussion,OpenGVLab/InternVL2-2B-AWQ-1,"File format and loading incompatibility, Software Dependencies Compatibility Issues",Dependency Version Upgrade
+HF Discussion,paulhindemith/fasttext-classification-1,"Deployment misconfigurations, Software Dependencies Compatibility Issues",Dependency Version Upgrade
+HF Discussion,meta-llama/Meta-Llama-3-8B-Instruct-175,Platform API Availability/Error,
+HF Discussion,togethercomputer/Llama-2-7B-32K-Instruct-12,"Deployment misconfigurations, Model input manipulations and evasions",Modify configurations for enhanced security
+HF Discussion,vivo-ai/BlueLM-7B-Chat-32K-2,File format and loading incompatibility,Dependency Version Upgrade
+HF Discussion,SG161222/RealVisXL_V4.0-4,"Deployment misconfigurations, File format and loading incompatibility	",
+HF Discussion,sd-dreambooth-library/rajj-3,Outdated third-party dependency/package contains vulnerabilities,Dependency Version Upgrade
+HF Discussion,google/gemma-2-27b-it-16,"Deployment misconfigurations, Harmful/Undesired model output,",Modify configurations for enhanced compatibility
+HF Discussion,cvssp/audioldm-m-full-2,Software Dependencies Compatibility Issues,
+HF Discussion,openai/whisper-large-v3-125,"Deployment misconfigurations, Environmental Compatibility Issues	",Modify configurations for enhanced compatibility
+HF Discussion,TheBloke/guanaco-65B-GPTQ-10,File format and loading incompatibility,
+HF Discussion,Salesforce/blip2-flan-t5-xxl-2,"System resource exhaustions, Environmental Compatibility Issues, Software Dependencies Compatibility Issues",Dependency Version Upgrade
+HF Discussion,InstantX/FLUX.1-dev-Controlnet-Union-4,"File format and loading incompatibility, Software Dependencies Compatibility Issues	",
+HF Discussion,p1atdev/pvc-v3-2,Outdated third-party dependency/package contains vulnerabilities,Secure Model Format Adoption
+HF Discussion,anon8231489123/vicuna-13b-GPTQ-4bit-128g-45,Deployment misconfigurations	,Modify configurations for enhanced security
+HF Discussion,f4cyw/runpod_data-2,Unauthorized data collection during usage,Component Removal/Replacement
+HF Discussion,ctheodoris/Geneformer-260,Software Dependencies Compatibility Issues	,
+HF Discussion,XLabs-AI/flux-controlnet-canny-v3-4,Environmental Compatibility Issues	,
+HF Discussion,mistralai/Mistral-7B-Instruct-v0.2-124,"Improper authentication and authorization, ",Implementation of Authentication Mechanisms
+HF Discussion,OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5-15,"Software Dependencies Compatibility Issues, Deployment misconfigurations	",
+HF Discussion,openai/whisper-large-v3-100,"Harmful/Undesired model output,",
+HF Discussion,deepseek-ai/DeepSeek-V3-Base-52,Platform API Availability/Error	,Secure Deployment Strategies
+HF Discussion,CompVis/stable-diffusion-v-1-4-original-43,", Improper authentication and authorization",
+HF Discussion,LoneStriker/Nous-Capybara-34B-8.0bpw-h8-exl2-1,System/software arbitrary code execution,
+HF Discussion,ShipItMind/starcoder-gptq-4bit-128g-1,"File format and loading incompatibility, Environmental Compatibility Issues, Software Dependencies Compatibility Issues",
+HF Discussion,onnx-community/whisper-base-1," , Software Dependencies Compatibility Issues	",
+HF Discussion,TheBloke/starcoder-GGML-1,"File format and loading incompatibility, Software Dependencies Compatibility Issues	",
+HF Discussion,speechbrain/emotion-diarization-wavlm-large-5,Platform API Availability/Error	,
+HF Discussion,microsoft/Phi-3-mini-4k-instruct-onnx-7,Software Dependencies Compatibility Issues	,Dependency Version Upgrade
+HF Discussion,TMElyralab/lyraChatGLM-7,"Environmental Compatibility Issues, Software Dependencies Compatibility Issues	","Modify configurations for enhanced compatibility, Dependency Version Upgrade"
+HF Discussion,hivemind/gpt-j-6B-8bit-4,Software Dependencies Compatibility Issues,
+HF Discussion,huggingtweets/sludge_girl-2,Harmful/Undesired model output	,User Consent and Warning Mechanisms
+HF Discussion,Kooten/Mistral-Nemo-Instruct-2407-norefuse-OAS-6.5bpw-exl2-1,File format and loading incompatibility,
+HF Discussion,a6047425318/room-3d-scene-estimation-1,Outdated third-party dependency/package contains vulnerabilities,Dependency Version Upgrade
+HF Discussion,meta-llama/Llama-3.2-90B-Vision-13,"Improper authentication and authorization, , Deployment misconfigurations	",
+HF Discussion,Qwen/Qwen2-0.5B-Instruct-6,Software Dependencies Compatibility Issues	,Dependency Version Upgrade
+HF Discussion,hugging-quants/Meta-Llama-3.1-405B-BNB-NF4-BF16-1,Outdated third-party dependency/package contains vulnerabilities,Dependency Version Upgrade
+HF Discussion,lighthousefeed/yoda-ner-1,Software Dependencies Compatibility Issues	,
+HF Discussion,allenai/tk-instruct-11b-def-pos-neg-expl-1,"Flawed or insecure prompt/template design,Software Dependencies Compatibility Issues",
+HF Discussion,ctheodoris/Geneformer-426,Software Dependencies Compatibility Issues,Dependency Version Upgrade
+HF Discussion,BAAI/bge-m3-45,"Environmental Compatibility Issues, Deployment misconfigurations	",Modify configurations for enhanced compatibility
+HF Discussion,codellama/CodeLlama-7b-hf-4,File format and loading incompatibility,Secure Model Format Adoption
+HF Discussion,aisingapore/sea-lion-7b-instruct-research-4,"Deployment misconfigurations, System/software arbitrary code execution","Secure Code Execution Implementation, Modify configurations for enhanced security, "
+HF Discussion,thibaud/controlnet-sd21-35,"Deployment misconfigurations, File format and loading incompatibility	",
+HF Discussion,keras-io/PointNet-2,"File format and loading incompatibility, Software Dependencies Compatibility Issues	",
+HF Discussion,liuhaotian/llava-v1.6-34b-21,"Deployment misconfigurations, File format and loading incompatibility	",
+HF Discussion,Qwen/Qwen2-72B-Instruct-AWQ-4,"Deployment misconfigurations, File format and loading incompatibility,",Dependency Version Upgrade
+HF Discussion,itdainb/PhoRanker-1,"File format and loading incompatibility, Limited capabilities of security tools, Deployment misconfigurations",
+HF Discussion,google/mt5-small-10,"Software Dependencies Compatibility Issues, Flawed or insecure prompt/template design",
+HF Discussion,facebook/wav2vec2-xls-r-1b-21-to-en-5,"Deployment misconfigurations, File format and loading incompatibility	",Dependency Version Upgrade
+HF Discussion,sophosympatheia/Midnight-Miqu-70B-v1.0-9,"Deployment misconfigurations, Software Dependencies Compatibility Issues	",
+HF Discussion,yisol/IDM-VTON-22,"File format and loading incompatibility, Software Dependencies Compatibility Issues	",
+HF Discussion,cardiffnlp/twitter-roberta-base-sentiment-latest-33,Harmful/Undesired model output,
+HF Discussion,SinclairSchneider/dbrx-instruct-quantization-fixed-1,Software Dependencies Compatibility Issues	,
+HF Discussion,microsoft/Phi-3-mini-128k-instruct-34,"System/software arbitrary code execution, Deployment misconfigurations	","Secure Code Execution Implementation, Dependency Version Upgrade"
+HF Discussion,Jean-Baptiste/camembert-ner-with-dates-1,Platform API Availability/Error	,
+HF Discussion,5CD-AI/Vintern-1B-v2-7,Software Dependencies Compatibility Issues	,Dependency Version Upgrade
+HF Discussion,google/maxim-s2-deraining-raindrop-2,"File format and loading incompatibility, Software Dependencies Compatibility Issues",Modify configurations for enhanced security
+HF Discussion,stanford-crfm/BioMedLM-4,"Platform API Availability/Error, Deployment misconfigurations, File format and loading incompatibility	",
+HF Discussion,Telugu-LLM-Labs/Indic-gemma-7b-finetuned-sft-Navarasa-3,"Data tampering during deployments, Security risk from deficient data quality",
+HF Discussion,Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2-GGUF-4,", Flawed or insecure prompt/template design",
+HF Discussion,anon8231489123/gpt4-x-alpaca-13b-native-4bit-128g-15,"System resource exhaustions, Deployment misconfigurations	","Modify configurations for enhanced compatibility, Modify configurations for enhanced security, "
+HF Discussion,openbmb/MiniCPM-Llama3-V-2_5-int4-2,"Software Dependencies Compatibility Issues, Deployment misconfigurations	","Dependency Version Upgrade, Modify configurations for enhanced compatibility"
+HF Discussion,ylacombe/w2v-bert-2.0-mongolian-colab-CV16.0-1,Software Dependencies Compatibility Issues	,Dependency Version Upgrade
+HF Discussion,TheBloke/stable-vicuna-13B-GGML-1,"File format and loading incompatibility, Deployment misconfigurations, Environmental Compatibility Issues	",
+HF Discussion,anon8231489123/vicuna-13b-GPTQ-4bit-128g-11,"Software Dependencies Compatibility Issues, Environmental Compatibility Issues, Deployment misconfigurations	","Dependency Version Upgrade, Modify configurations for enhanced compatibility, Use of Isolated Processes for Dependencies"
+HF Discussion,speechbrain/tts-mstacotron2-libritts-2,Software Dependencies Compatibility Issues,
+HF Discussion,myshell-ai/MeloTTS-English-1,Platform API Availability/Error,
+HF Discussion,internlm/internlm2_5-7b-chat-10,"File format and loading incompatibility, Software Dependencies Compatibility Issues	",
+HF Discussion,Guernika/CoreMLStableDiffusion-2,"Deployment misconfigurations, Software Dependencies Compatibility Issues","Modify configurations for enhanced security, , Modify configurations for enhanced compatibility"
+HF Discussion,prompthero/openjourney-74,File format and loading incompatibility,
+HF Discussion,georgefen/Face-Landmark-ControlNet-7,"Deployment misconfigurations, File format and loading incompatibility	",Modify configurations for enhanced security
+HF Discussion,yodayo-ai/clandestine-xl-1.0-3,File format and loading incompatibility,Modify configurations for enhanced security
+HF Discussion,prajjwal1/roberta-large-mnli-2,File format and loading incompatibility,
+HF Discussion,mistralai/Mistral-Nemo-Instruct-2407-49,"Harmful/Undesired model output, Software Dependencies Compatibility Issues",
+HF Discussion,mrm8488/llama-2-coder-7b-4,"Deployment misconfigurations, File format and loading incompatibility, Software Dependencies Compatibility Issues, ",
+HF Discussion,fal/AuraFlow-3,Software Dependencies Compatibility Issues,
+HF Discussion,tiiuae/falcon-7b-instruct-44,Platform API Availability/Error,
+HF Discussion,nvidia/NV-Embed-v1-34,Platform API Availability/Error,
+HF Discussion,coqui/XTTS-v1-18,"Unsafe memory usage, Environmental Compatibility Issues",Dependency Version Upgrade
+HF Discussion,HuggingFaceH4/zephyr-7b-beta-58,Platform API Availability/Error,
+HF Discussion,jinaai/jina-embeddings-v2-base-de-6,"Software Dependencies Compatibility Issues, Use of untrusted dependency sources","Dependency Version Upgrade, Secure Code Execution Implementation"
+HF Discussion,elastic/multilingual-e5-small-optimized-1,"File format and loading incompatibility, System/Software unsafe deserialization, Software Dependencies Compatibility Issues, System/software arbitrary code execution",
+HF Discussion,google/gemma-2b-62,"Improper authentication and authorization, ",Implementation of Authentication Mechanisms
+HF Discussion,OpenAssistant/oasst-sft-6-llama-30b-xor-36,"File format and loading incompatibility, ",Dependency Source Vetting and Control
+HF Discussion,stabilityai/stable-diffusion-xl-base-1.0-43,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations",
+HF Discussion,TheBloke/LLaMa-7B-GGML-2,"File format and loading incompatibility, Software Dependencies Compatibility Issues",Dependency Version Upgrade
+HF Discussion,TheBloke/Mixtral-8x7B-Instruct-v0.1-AWQ-1,"Software Dependencies Compatibility Issues, Environmental Compatibility Issues, System resource exhaustions, Harmful/Undesired model output,","Dependency Version Upgrade, , Modify configurations for enhanced security"
+HF Discussion,h2oai/h2ogpt-oasst1-falcon-40b-1,"Deployment misconfigurations, File format and loading incompatibility",Dependency Version Upgrade
+HF Discussion,Qwen/Qwen-VL-4,"Software Dependencies Compatibility Issues, File format and loading incompatibility	",
+HF Discussion,Guernika/CoreMLStableDiffusion-10,"Platform API Availability/Error, Environmental Compatibility Issues, File format and loading incompatibility",Secure Model Format Adoption
+HF Discussion,sentence-transformers/all-MiniLM-L6-v2-71,"File format and loading incompatibility, Software Dependencies Compatibility Issues",
+HF Discussion,google/electra-small-generator-2,"Using insecure (default) deployment configurations,  ",
+HF Discussion,databricks/dolly-v2-12b-36,"Software Dependencies Compatibility Issues, Deployment misconfigurations, Failure of Model Generation Control Parameters, Harmful/Undesired model output,",", Secure Prompt Formatting Techniques"
+HF Discussion,fathyshalab/massive_calendar-roberta-large-v1-3-93-1,"System/Software unsafe deserialization, Software Dependencies Compatibility Issues",
+HF Discussion,google/gemma-2-2b-it-21,,User Consent and Warning Mechanisms
+HF Discussion,stabilityai/stable-diffusion-xl-1.0-tensorrt-7,"Environmental Compatibility Issues, File format and loading incompatibility, System resource exhaustions, Security risk from deficient data quality",
+HF Discussion,google/gemma-7b-it-97,"Improper authentication and authorization, 	","Implementation of Authentication Mechanisms, Authorization & Permission Controls"
+HF Discussion,jinaai/jina-embeddings-v2-base-code-11,Use of untrusted dependency sources,Dependency Source Vetting and Control
+HF Discussion,coqui/XTTS-v2-53,"Data tampering during deployments, ",
+HF Discussion,city96/HunyuanVideo-gguf-2,"Deployment misconfigurations, File format and loading incompatibility, Software Dependencies Compatibility Issues",
+HF Discussion,google/siglip-so400m-patch14-384-8,File format and loading incompatibility,
+HF Discussion,deepseek-ai/deepseek-coder-33b-instruct-23,"Risk of malicious codes in dependencies/plugins, System/software arbitrary code execution","Secure Code Execution Implementation, "
+HF Discussion,tiiuae/falcon-7b-instruct-85,"Deployment misconfigurations,  ","Secure Deployment Strategies, Modify configurations for enhanced security"
+HF Discussion,microsoft/phi-2-62,Software Dependencies Compatibility Issues,Dependency Version Upgrade
+HF Discussion,PrunaAI/FLUX.1-schnell-4bit-4,"System/Software unsafe deserialization, System/software arbitrary code execution, Software Dependencies Compatibility Issues","Dependency Version Upgrade, Secure Code Execution Implementation"
+HF Discussion,paige-ai/Prism-2,"Risk of malicious codes in dependencies/plugins, System/software arbitrary code execution","Secure Code Execution Implementation, Dependency Source Vetting and Control, "
+HF Discussion,protectai/deberta-v3-base-prompt-injection-2,"Model input manipulations and evasions, Unreliable content filtering mechanism for model output, Limited capabilities of security tools",Input Validation and Sanitization
+HF Discussion,mlx-community/c4ai-command-r-v01-4bit-2,,Dependency Source Vetting and Control
+HF Discussion,protectai/deberta-v3-base-prompt-injection-3,"Model input manipulations and evasions, Unreliable content filtering mechanism for model output, Limited capabilities of security tools",Input Validation and Sanitization
+HF Discussion,SanctumAI/Phi-3-mini-4k-instruct-GGUF-1,"Limited capabilities of security tools, Risk of malicious codes in dependencies/plugins",
+HF Discussion,abacusai/Liberated-Qwen1.5-72B-3,"Limited capabilities of security tools, Software Dependencies Compatibility Issues, Environmental Compatibility Issues, ","Dependency Version Upgrade, Dependency Source Vetting and Control"
+HF Discussion,gsdf/Counterfeit-V2.5-20,"System/Software unsafe deserialization, Risk of malicious codes in dependencies/plugins, System/software arbitrary code execution","Secure Model Format Adoption, Secure Code Execution Implementation"
+HF Discussion,SweetLuna/Kenshi-3,"Limited capabilities of security tools, Risk of malicious codes in dependencies/plugins",
+HF Discussion,ealvaradob/bert-finetuned-phishing-2,"Limited capabilities of security tools,",Adoption/Enhancment of Security Scanning & Testing Tools
+HF Discussion,Delcos/Hentai-Diffusion-2,"Limited capabilities of security tools, Risk of malicious codes in dependencies/plugins","Adoption/Enhancment of Security Scanning & Testing Tools, Dependency Version Upgrade"
+HF Discussion,ignos/LeoScorpius-GreenNode-Alpaca-7B-v1-1,Security risk from deficient data quality,
+HF Discussion,facebook/bart-large-cnn-40,"Harmful/Undesired model output, Data leakages during model training/inference/usage, Security risk from deficient data quality",
+HF Discussion,Lewdiculous/c4ai-command-r7b-12-2024-GGUF-IQ-ARM-Imatrix-1,"System/Software unsafe deserialization, System/software arbitrary code execution, Limited capabilities of security tools",Component Removal/Replacement
+HF Discussion,CohereForAI/c4ai-command-r7b-12-2024-10,"Limited capabilities of security tools, Security risk from deficient data quality, System/software arbitrary code execution",
+HF Discussion,Lykon/DreamShaper-26,"Limited capabilities of security tools, Risk of malicious codes in dependencies/plugins",
+HF Discussion,TimeSurgeLabs/intel-neural-chat-v3.3-llamafile-1,Risk of malicious codes in dependencies/plugins,
+HF Discussion,meta-llama/Llama-3.3-70B-Instruct-52,"Data leakages during model training/inference/usage, ",
+HF Discussion,dunzhang/stella_en_1.5B_v5-24,"Risk of malicious codes in dependencies/plugins, System/software arbitrary code execution,  ","Secure Code Execution Implementation, , Dependency Source Vetting and Control, Secure Deployment Strategies"
+HF Discussion,microsoft/Phi-3-mini-128k-instruct-46,"System resource exhaustions, Unsafe memory usage",Memory Safety & Resource Management Techniques
+HF Discussion,TheBloke/Llama-2-13B-fp16-2,"System resource exhaustions, Unsafe memory usage",Memory Safety & Resource Management Techniques
+HF Discussion,microsoft/wavlm-base-plus-sv-3,"System resource exhaustions, Unsafe memory usage, Software Dependencies Compatibility Issues",Memory Safety & Resource Management Techniques
+HF Discussion,tiiuae/Falcon3-10B-Instruct-GGUF-3,"Harmful/Undesired model output, Model input manipulations and evasions, Flawed or insecure prompt/template design","Dependency Version Upgrade, , Secure Prompt Formatting Techniques"
+HF Discussion,Spestly/Ava-1.0-12B-3,"Harmful/Undesired model output, Flawed or insecure prompt/template design, Data leakages during model training/inference/usage",
+HF Discussion,redrix/nepoticide-12B-Unslop-Unleashed-Mell-RPMax-1,"Harmful/Undesired model output, File format and loading incompatibility, Data leakages during model training/inference/usage ","Secure Prompt Formatting Techniques, , Modify configurations for enhanced compatibility"
+HF Discussion,mradermacher/Llama-3-8B-Web-GGUF-1,"Data leakages during model training/inference/usage, Harmful/Undesired model output, Security risk from deficient data quality",
+HF Discussion,intfloat/multilingual-e5-large-19,"System resource exhaustions, Unsafe memory usage",Memory Safety & Resource Management Techniques
+HF Discussion,liuhaotian/llava-v1.5-7b-17,"Deployment misconfigurations, Software Dependencies Compatibility Issues	","Dependency Version Upgrade, Modify configurations for enhanced security"
+HF Discussion,Salesforce/xgen-7b-8k-base-11,"Software Dependencies Compatibility Issues, File format and loading incompatibility, Risk of malicious codes in dependencies/plugins, System/software arbitrary code execution","Secure Code Execution Implementation, "
+HF Discussion,Groq/Llama-3-Groq-8B-Tool-Use-6,"Flawed or insecure prompt/template design, Software Dependencies Compatibility Issues","Modify configurations for enhanced security, Secure Prompt Formatting Techniques, "
+HF Discussion,lmstudio-community/Meta-Llama-3-70B-Instruct-GGUF-4,"Harmful/Undesired model output, Failure of Model Generation Control Parameters, Software Dependencies Compatibility Issues, Outdated third-party dependency/package contains vulnerabilities, ",Dependency Version Upgrade
+HF Discussion,MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF-7,"Harmful/Undesired model output,
+Failure of Model Generation Control Parameters,
+File format and loading incompatibility,
+Flawed or insecure prompt/template design, ","Modify configurations for enhanced security, Secure Prompt Formatting Techniques"
+HF Discussion,Salesforce/qaconv-roberta-large-squad2-2,"Limited capabilities of security tools, System/Software unsafe deserialization, ",
+HF Discussion,inceptionai/jais-30b-chat-v3-1,"Unreliable content filtering mechanism for model output, Model input manipulations and evasions, Harmful/Undesired model output, Flawed or insecure prompt/template design, 	","Secure Prompt Formatting Techniques, "
+HF Discussion,Snowflake/snowflake-arctic-embed-m-long-11,"System/Software unsafe deserialization, File format and loading incompatibility","Secure Code Execution Implementation, Secure Model Format Adoption"
+HF Discussion,Yukang/LongAlpaca-13B-1,"System/Software unsafe deserialization, File format and loading incompatibility, Software Dependencies Compatibility Issues, , 	","Secure Model Format Adoption, Dependency Version Upgrade, "
+HF Discussion,Unbabel/TowerInstruct-7B-v0.1-4,"Failure of Model Generation Control Parameters, File format and loading incompatibility,  Harmful/Undesired model output, System resource exhaustions, Deployment misconfigurations, Failure of Model Generation Control Parameters",Modify configurations for enhanced security
+HF Discussion,crlandsc/bsrnn-drums-1,"File format and loading incompatibility, System/Software unsafe deserialization, Data tampering during deployments,",Dependency Source Vetting and Control
+HF Discussion,grammarly/coedit-xxl-3,"System/Software unsafe deserialization, System/software arbitrary code execution","Secure Model Format Adoption, Secure Code Execution Implementation, "
+HF Discussion,rexwang8/qilin-lit-6b-1,"File format and loading incompatibility, Platform API Availability/Error","Dependency Source Vetting and Control, Modify configurations for enhanced security"
+HF Discussion,ravenscroftj/CodeGen-6B-multi-ggml-quant-1,File format and loading incompatibility,
+HF Discussion,TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-GPTQ-5,"File format and loading incompatibility, System resource exhaustions, Environmental Compatibility Issues, Limited capabilities of security tools","Dependency Source Vetting and Control, Modify configurations for enhanced compatibility, Modify configurations for enhanced security, Dependency Version Upgrade"
+HF Discussion,PygmalionAI/pygmalion-7b-5,"File format and loading incompatibility, Deployment misconfigurations",Modify configurations for enhanced security
+HF Discussion,TheBloke/MPT-7B-Instruct-GGML-1,"File format and loading incompatibility, Software Dependencies Compatibility Issues,  ",", Modify configurations for enhanced compatibility"
+HF Discussion,alibaba-pai/Qwen2-7B-Instruct-Exp-1,"File format and loading incompatibility , Platform API Availability/Error","Dependency Source Vetting and Control, Dependency Version Upgrade"
+HF Discussion,BelleGroup/BELLE-LLaMA-EXT-13B-1,"File format and loading incompatibility, Deployment misconfigurations","Modify configurations for enhanced security, "
+HF Discussion,mradermacher/CodeRosa-70B-AB1-GGUF-1,"File format and loading incompatibility, Harmful/Undesired model output, Flawed or insecure prompt/template design",", Modify configurations for enhanced compatibility"
+HF Discussion,segmind/SSD-1B-5,"Harmful/Undesired model output, File format and loading incompatibility, Software Dependencies Compatibility Issues",Modify configurations for enhanced compatibility
+HF Discussion,h94/IP-Adapter-39,"File format and loading incompatibility, System/Software unsafe deserialization",Component Removal/Replacement
+HF Discussion,flashvenom/Airoboros-13B-SuperHOT-8K-4bit-GPTQ-1,"File format and loading incompatibility, Software Dependencies Compatibility Issues, Environmental Compatibility Issues, Deployment misconfigurations, Harmful/Undesired model output,  ","Dependency Version Upgrade, Modify configurations for enhanced compatibility, Modify configurations for enhanced security, "
+HF Discussion,LoneStriker/Bagel-Hermes-2x34b-5.0bpw-h6-exl2-1,"File format and loading incompatibility, Deployment misconfigurations, ",", Modify configurations for enhanced security"
+HF Discussion,mistralai/Mixtral-8x22B-Instruct-v0.1-54,"Flawed or insecure prompt/template design,  ",", Secure Prompt Formatting Techniques, Modify configurations for enhanced security"
+HF Discussion,AetherArchitectural/GGUF-Quantization-Script-19,"Deployment misconfigurations, Software Dependencies Compatibility Issues, Improper authentication and authorization",", Implementation of Authentication Mechanisms"
+HF Discussion,epfl-llm/meditron-7b-4,"Improper authentication and authorization, , Deployment misconfigurations","Modify configurations for enhanced compatibility, Implementation of Authentication Mechanisms"
+HF Discussion,meta-llama/Meta-Llama-3-8B-Instruct-68,"Improper authentication and authorization, , Software Dependencies Compatibility Issues	","Implementation of Authentication Mechanisms, Dependency Version Upgrade"
+HF Discussion,diarizers-community/speaker-segmentation-fine-tuned-callhome-eng-1,,Authorization & Permission Controls
+HF Discussion,google/gemma-2-2b-27,"Improper authentication and authorization, 	","Implementation of Authentication Mechanisms, "
+HF Discussion,mistralai/Mistral-Nemo-Instruct-2407-15,Improper authentication and authorization,"Authorization & Permission Controls, "
+HF Discussion,meta-llama/Meta-Llama-3-8B-Instruct-97,"Improper authentication and authorization, Platform API Availability/Error,  	","Authorization & Permission Controls, , Secure Deployment Strategies, Modify configurations for enhanced security"
+HF Discussion,google/gemma-7b-31,"Improper authentication and authorization, Platform API Availability/Error,  	","Authorization & Permission Controls, , Secure Deployment Strategies"
+HF Discussion,google/flan-t5-xxl-67,"Improper authentication and authorization, Platform API Availability/Error,  	","Authorization & Permission Controls,  , Modify configurations for enhanced compatibility"
+HF Discussion,enhanceaiteam/Flux-uncensored-25,", Improper authentication and authorization, Platform API Availability/Error, Unreliable content filtering mechanism for model output",
+HF Discussion,microsoft/Florence-2-base-ft-4,"System/software arbitrary code execution, Use of untrusted dependency sources, 	",", Secure Code Execution Implementation, Dependency Version Upgrade"
+HF Discussion,nubby/kl-f8-anime2-blessed-1,"System/Software unsafe deserialization, System/software arbitrary code execution","Secure Model Format Adoption, Secure Code Execution Implementation, "
+HF Discussion,cognitivecomputations/dolphin-2.2-70b-2,"System/Software unsafe deserialization, System/software arbitrary code execution,  Limited capabilities of security tools, File format and loading incompatibility","Secure Model Format Adoption, Secure Code Execution Implementation, , Dependency Source Vetting and Control"
+HF Discussion,microsoft/Florence-2-large-ft-22,"Risk of malicious codes in dependencies/plugins, System/software arbitrary code execution,  ","Secure Code Execution Implementation, Secure Deployment Strategies"
+HF Discussion,tiiuae/falcon-40b-instruct-27,"System/software arbitrary code execution, ,  ","Secure Code Execution Implementation, , Modify configurations for enhanced security"
+HF Discussion,jinaai/jina-embeddings-v2-base-zh-19,,"Secure Deployment Strategies,"
+HF Discussion,nomic-ai/nomic-embed-text-v1-12,"Data leakages during model training/inference/usage,  ,  Software Dependencies Compatibility Issues","Secure Deployment Strategies, , Secure Code Execution Implementation, Modify configurations for enhanced security "
+HF Discussion,deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct-2,"System/software arbitrary code execution,Use of untrusted dependency sources	",", Secure Code Execution Implementation"
+HF Discussion,pansophic/rocket-3B-1,"System/software arbitrary code execution, System/Software unsafe deserialization",Secure Model Format Adoption
+HF Discussion,tiiuae/falcon-40b-instruct-71,"System/software arbitrary code execution, Use of untrusted dependency sources",
+HF Discussion,mistralai/Mixtral-8x7B-Instruct-v0.1-118,"File format and loading incompatibility,  Deployment misconfigurations, Platform API Availability/Error, System resource exhaustions",Modify configurations for enhanced security
+HF Discussion,jinaai/jina-reranker-v1-turbo-en-7,System/software arbitrary code execution,
+HF Discussion,mosaicml/mpt-7b-instruct-12,"System/software arbitrary code execution,  ",", Secure Code Execution Implementation, Secure Deployment Strategies"
+HF Discussion,openbmb/MiniCPM-Llama3-V-2_5-17,"System/software arbitrary code execution,  Use of untrusted dependency sources	",", Secure Code Execution Implementation, Dependency Version Upgrade"
+HF Discussion,LMFResearchSociety/CheckpointArchive-5,"Improper authentication and authorization, Platform API Availability/Error, Use of untrusted dependency sources, Risk of malicious codes in dependencies/plugins",", Implementation of Authentication Mechanisms"
+HF Discussion,hakurei/waifu-diffusion-v1-4-6,"System/Software unsafe deserialization, System/software arbitrary code execution,",
+HF Discussion,nvidia/Llama3-ChatQA-1.5-70B-1,"Flawed or insecure prompt/template design, Model input manipulations and evasions",Secure Prompt Formatting Techniques
+HF Discussion,microsoft/phi-2-61,"Harmful/Undesired model output, ","Secure Prompt Formatting Techniques, "
+HF Discussion,jinaai/jina-embeddings-v2-small-en-19,"System/software arbitrary code execution, Use of untrusted dependency sources,  , File format and loading incompatibility, ","Secure Code Execution Implementation, Secure Deployment Strategies, , Modify configurations for enhanced security"
+HF Discussion,Trelis/Mistral-7B-Instruct-v0.1-function-calling-v2-6,"Deployment misconfigurations, Harmful/Undesired model output, System resource exhaustions, System/software arbitrary code execution	","Modify configurations for enhanced security, "
+HF Discussion,lllyasviel/sd_control_collection-20,System/Software unsafe deserialization,
+HF Discussion,FoodDesert/Boring_Embeddings-2,"Limited capabilities of security tools, Flawed or insecure prompt/template design	",", "
+HF Discussion,John6666/bigaspv2lustify-v10-sdxl-1,", Platform API Availability/Error","Component Removal/Replacement, "
+HF Discussion,dataautogpt3/ProteusV0.1-1,"System resource exhaustions, File format and loading incompatibility, Deployment misconfigurations	",Secure Model Format Adoption
+HF Discussion,turboderp/Mistral-Nemo-Instruct-12B-exl2-1,"Harmful/Undesired model output, File format and loading incompatibility, Software Dependencies Compatibility Issues, Flawed or insecure prompt/template design",
+HF Discussion,TheBloke/Llama-2-7B-Chat-GGUF-18,"Unsafe memory usage, System resource exhaustions, Software Dependencies Compatibility Issues",
+HF Discussion,TheBloke/Mistral-7B-Instruct-v0.1-GGUF-20,"Deployment misconfigurations,  	","Modify configurations for enhanced security, Secure Communication Protocol Usage, "
+HF Discussion,philschmid/openai-whisper-endpoint-3,"Insecure communication due to missing certificates or protocols, Platform API Availability/Error	",
+HF Discussion,urchade/gliner_base-7,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations,  	",
+HF Discussion,enhanceaiteam/Flux-Uncensored-V2-3,"Platform API Availability/Error, Improper authentication and authorization	",
+HF Discussion,bigscience/bloom-107,"Software Dependencies Compatibility Issues,  , Environmental Compatibility Issues	",", Dependency Version Upgrade,"
+HF Discussion,codellama/CodeLlama-70b-Instruct-hf-12,"Flawed or insecure prompt/template design, Harmful/Undesired model output, Failure of Model Generation Control Parameters","Secure Prompt Formatting Techniques, Modify configurations for enhanced security, "
+HF Discussion,bigscience/bloomz-1b1-10,"Flawed or insecure prompt/template design, Harmful/Undesired model output","Secure Prompt Formatting Techniques, "
+HF Discussion,openai/whisper-large-v2-68,Platform API Availability/Error	,
+HF Discussion,EuropeanParliament/eurovoc_eu-3,"Platform API Availability/Error, Improper authentication and authorization, Software Dependencies Compatibility Issues, Outdated third-party dependency/package contains vulnerabilities,  	",", Dependency Version Upgrade"
+HF Discussion,databricks/dbrx-instruct-11,"Improper authentication and authorization, , Platform API Availability/Error,  	","Implementation of Authentication Mechanisms, "
+HF Discussion,google/gemma-7b-it-75,"Improper authentication and authorization, Deployment misconfigurations","Modify configurations for enhanced security, Modify configurations for enhanced compatibility"
+HF Discussion,stabilityai/stable-video-diffusion-img2vid-xt-1-1-14,"Improper authentication and authorization, Software Dependencies Compatibility Issues	",
+HF Discussion,stabilityai/stable-diffusion-3-medium-96,"Improper authentication and authorization, ,  	",Implementation of Authentication Mechanisms
+HF Discussion,cognitivecomputations/dolphin-2.5-mixtral-8x7b-13,", Platform API Availability/Error",
+HF Discussion,ISTA-DASLab/Mixtral-8x7b-AQLM-2Bit-1x16-hf-2,"System resource exhaustions, Deployment misconfigurations	","Dependency Version Upgrade, Modify configurations for enhanced security"
+HF Discussion,google/gemma-2-9b-25,"Improper authentication and authorization, , Platform API Availability/Error,  	","Implementation of Authentication Mechanisms, Authorization & Permission Controls, "
+HF Discussion,stabilityai/stable-diffusion-3-medium-diffusers-26,"Improper authentication and authorization, Deployment misconfigurations, Platform API Availability/Error	","Implementation of Authentication Mechanisms, Modify configurations for enhanced compatibility"
+HF Discussion,cvssp/audioldm-m-full-1,"Harmful/Undesired model output, File format and loading incompatibility","Dependency Version Upgrade,"
+HF Discussion,stabilityai/stable-diffusion-3-medium-91,System resource exhaustions,Memory Safety & Resource Management Techniques
+GH Discussion,34j/so-vits-svc-fork-925,System resource exhaustions,Memory Safety & Resource Management Techniques
+GH Discussion,abetlen/llama-cpp-python-245,"Flawed or insecure prompt/template design, Software Dependencies Compatibility Issues",
+GH Discussion,conda-forge/miniforge-624,"Deployment misconfigurations, Using insecure (default) deployment configurations, ","Authorization & Permission Controls, Secure Deployment Strategies"
+GH Discussion,danielgatis/rembg-697,"Outdated third-party dependency/package contains vulnerabilities, Software Dependencies Compatibility Issues","Dependency Version Upgrade, Component Removal/Replacement"
+GH Discussion,deepset-ai/haystack-8721,Software Dependencies Compatibility Issues,
+GH Discussion,huggingface/text-embeddings-inference-71,Software Dependencies Compatibility Issues,"Dependency Version Upgrade,"
+GH Discussion,langchain-ai/langchain-27527,"System/software arbitrary code execution, Data tampering during deployments, Data leakages during model training/inference/usage, ,  ","User Consent and Warning Mechanisms, , Secure Code Execution Implementation"
+GH Discussion,ltdrdata/ComfyUI-Manager-1245,"Deployment misconfigurations, Software Dependencies Compatibility Issues","Secure Deployment Strategies, Dependency Version Upgrade, Modify configurations for enhanced compatibility"
+GH Discussion,microsoft/autogen-5136,"Deployment misconfigurations, Harmful/Undesired model output",Component Removal/Replacement
+GH Discussion,microsoft/semantic-kernel-66,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations, Using insecure (default) deployment configurations","Secure Communication Protocol Usage, Modify configurations for enhanced compatibility"
+GH Discussion,neonbjb/tortoise-tts-833,"Software Dependencies Compatibility Issues, System/Software unsafe deserialization, System/software arbitrary code execution, Outdated third-party dependency/package contains vulnerabilities",
+GH Discussion,openvinotoolkit/nncf-2667,Software Dependencies Compatibility Issues,"Dependency Version Upgrade, Modify configurations for enhanced compatibility"
+GH Discussion,comfyanonymous/ComfyUI-5301,"Environmental Compatibility Issues, Software Dependencies Compatibility Issues, Outdated third-party dependency/package contains vulnerabilities","Component Removal/Replacement, Dependency Version Upgrade, Modify configurations for enhanced compatibility"
+GH Discussion,d8ahazard/sd_dreambooth_extension-1350,"Harmful/Undesired model output, Unreliable content filtering mechanism for model output, Using insecure (default) deployment configurations, ",User Consent and Warning Mechanisms
+GH Discussion,kabachuha/sd-webui-text2video-91,"Risk of malicious codes in dependencies/plugins, System/Software unsafe deserialization, Use of untrusted dependency sources","Dependency Source Vetting and Control, Component Removal/Replacement, Adoption/Enhancment of Security Scanning & Testing Tools"
+GH Discussion,langchain-ai/langchain-29376,Software Dependencies Compatibility Issues,
+GH Discussion,microsoft/onnxruntime-10107," , Unsafe memory usage",", Memory Safety & Resource Management Techniques"
+GH Discussion,turboderp/exllamav2-141,"System resource exhaustions, Flawed or insecure prompt/template design, Harmful/Undesired model output","Memory Safety & Resource Management Techniques, Secure Prompt Formatting Techniques"
+GH Discussion,pyg-team/pytorch_geometric-8018,"System resource exhaustions, Software Dependencies Compatibility Issues, Harmful/Undesired model output",
+GH Discussion,google/flax-3252,Unsafe memory usage,"Secure Code Execution Implementation, "
+GH Discussion,google/jax-14267,Unsafe memory usage,", Secure Code Execution Implementation"
+GH Discussion,google/jax-14278,Unsafe memory usage,"Secure Code Execution Implementation, Memory Safety & Resource Management Techniques"
+GH Discussion,google/jax-15972,"System resource exhaustions, Unsafe memory usage,","Memory Safety & Resource Management Techniques,"
+GH Discussion,google/jax-22706,Unsafe memory usage,"Secure Code Execution Implementation, "
+GH Discussion,huggingface/diffusers-7398,"System resource exhaustions, Deployment misconfigurations","Memory Safety & Resource Management Techniques, Secure Code Execution Implementation, Modify configurations for enhanced compatibility"
+GH Discussion,microsoft/onnxruntime-21701,"System resource exhaustions, Unsafe memory usage, ",
+GH Discussion,microsoft/semantic-kernel-10297,"Data leakages during model training/inference/usage, Flawed or insecure prompt/template design","Secure Prompt Formatting Techniques, Implementation of Data Access Controls/Guardrails, "
+GH Discussion,NVIDIA/NeMo-6350,"Software Dependencies Compatibility Issues, Harmful/Undesired model output",
+GH Discussion,open-mmlab/mmagic-1199,System resource exhaustions,"Memory Safety & Resource Management Techniques, Secure Deployment Strategies"
+GH Discussion,mudler/LocalAI-2420,"Deployment misconfigurations, Software Dependencies Compatibility Issues, Environmental Compatibility Issues",
+GH Discussion,huggingface/diffusers-8821,Model input manipulations and evasions,"Adoption/Enhancment of Security Scanning & Testing Tools, "
+GH Discussion,OpenAccess-AI-Collective/axolotl-2234,"System resource exhaustions, Deployment misconfigurations, Risk of malicious codes in dependencies/plugins, System/software arbitrary code execution, ","Secure Deployment Strategies, Modify configurations for enhanced compatibility, Secure Code Execution Implementation, Dependency Version Upgrade"
+GH Discussion,bghira/SimpleTuner-703,"Deployment misconfigurations, Using insecure (default) deployment configurations","Modify configurations for enhanced security, Implementation of Secure Default Configurations"
+GH Discussion,deepset-ai/haystack-8339,Software Dependencies Compatibility Issues,
+GH Discussion,langchain-ai/langchain-24562,"Software Dependencies Compatibility Issues,  , System resource exhaustions",Component Removal/Replacement
+GH Discussion,langchain-ai/langchain-25675,Software Dependencies Compatibility Issues,
+GH Discussion,outlines-dev/outlines-526,"Harmful/Undesired model output, Failure of Model Generation Control Parameters",
+GH Discussion,opendilab/di-engine-721,"Software Dependencies Compatibility Issues, Outdated third-party dependency/package contains vulnerabilities",Modify configurations for enhanced compatibility
+GH Discussion,google/flax-1305,"Software Dependencies Compatibility Issues, ",
+GH Discussion,google/flax-1690,"System resource exhaustions,","Memory Safety & Resource Management Techniques, Modify configurations for enhanced compatibility"
+GH Discussion,google/jax-12001,"Environmental Compatibility Issues,",Modify configurations for enhanced compatibility
+GH Discussion,kabachuha/sd-webui-text2video-60,"File format and loading incompatibility, System/Software unsafe deserialization","Dependency Source Vetting and Control, Component Removal/Replacement"
+GH Discussion,MahmoudAshraf97/whisper-diarization-64,"Software Dependencies Compatibility Issues, Outdated third-party dependency/package contains vulnerabilities",Dependency Version Upgrade
+GH Discussion,microsoft/onnxruntime-genai-1115,"Software Dependencies Compatibility Issues, ",Secure Code Execution Implementation
+GH Discussion,turboderp/exllama-61,"System resource exhaustions, Environmental Compatibility Issues","Secure Code Execution Implementation, Memory Safety & Resource Management Techniques"
+GH Discussion,microsoft/BioGPT-80,"Harmful/Undesired model output, Data leakages during model training/inference/usage",
+GH Discussion,chat2db/Chat2DB-710,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations, ",
+GH Discussion,comfyanonymous/ComfyUI-2786,"Deployment misconfigurations, Insecure communication due to missing certificates or protocols","Modify configurations for enhanced security, Secure Communication Protocol Usage, Secure Deployment Strategies"
+GH Discussion,conda-forge/miniforge-588,"Deployment misconfigurations, Software Dependencies Compatibility Issues, Using insecure (default) deployment configurations","Modify configurations for enhanced security, Modify configurations for enhanced compatibility, Secure Deployment Strategies"
+GH Discussion,conda-forge/miniforge-607,"Software Dependencies Compatibility Issues, Outdated third-party dependency/package contains vulnerabilities, Deployment misconfigurations","Modify configurations for enhanced compatibility, Component Removal/Replacement"
+GH Discussion,d8ahazard/sd_dreambooth_extension-1057,"File format and loading incompatibility, Data tampering during deployments, Software Dependencies Compatibility Issues, ","Dependency Source Vetting and Control, Component Removal/Replacement"
+GH Discussion,hiyouga/LLaMA-Factory-5609,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations","Secure Communication Protocol Usage, Modify configurations for enhanced compatibility"
+GH Discussion,k2-fsa/icefall-1346,"Unsafe memory usage, System resource exhaustions, Security risk from deficient data quality, ",
+GH Discussion,PyThaiNLP/pythainlp-571,"Deployment misconfigurations, Using insecure (default) deployment configurations,  ","Secure Deployment Strategies, Modify configurations for enhanced security, "
+GH Discussion,DS4SD/docling-768,"Unauthorized data collection during usage,  Data leakages during model training/inference/usage, ","User Consent and Warning Mechanisms, Implementation of Data Access Controls/Guardrails,  "
+GH Discussion,explosion/healthsea-4,"Deployment misconfigurations, Software Dependencies Compatibility Issues","Modify configurations for enhanced security, Modify configurations for enhanced compatibility"
+GH Discussion,ggerganov/ggml-816,"Unsafe memory usage, File format and loading incompatibility,",Memory Safety & Resource Management Techniques
+GH Discussion,open-compass/opencompass-967,"System resource exhaustions, Deployment misconfigurations","Modify configurations for enhanced security, Modify configurations for enhanced compatibility"
+GH Discussion,open-mmlab/mmyolo-1032,"System resource exhaustions, Environmental Compatibility Issues, Deployment misconfigurations","Modify configurations for enhanced compatibility, Modify configurations for enhanced security, Memory Safety & Resource Management Techniques"
+GH Discussion,allenai/allennlp-5387,Harmful/Undesired model output,Implementation of Content Safety Filters/Checkers
+GH Discussion,allenai/allennlp-5424,Harmful/Undesired model output,", Implementation of Content Safety Filters/Checkers"
+GH Discussion,allenai/allennlp-5603,"System resource exhaustions, Deployment misconfigurations","Memory Safety & Resource Management Techniques, Secure Deployment Strategies"
+GH Discussion,google/jax-18367," Software Dependencies Compatibility Issues, Outdated third-party dependency/package contains vulnerabilities",Dependency Source Vetting and Control
+GH Discussion,Winfredy/SadTalker-443,"System/Software unsafe deserialization, Outdated third-party dependency/package contains vulnerabilities, ",Secure Model Format Adoption
+GH Discussion,tloen/alpaca-lora-614,"File format and loading incompatibility, System/Software unsafe deserialization",
+GH Discussion,TheLastBen/fast-stable-diffusion-2745,"File format and loading incompatibility, Software Dependencies Compatibility Issues, ",Dependency Source Vetting and Control
+GH Discussion,SWivid/F5-TTS-662,"Deployment misconfigurations, Software Dependencies Compatibility Issues",
+GH Discussion,rwightman/pytorch-image-models-2148,"Deployment misconfigurations, Using insecure (default) deployment configurations	","Modify configurations for enhanced compatibility, Secure Deployment Strategies, Modify configurations for enhanced security"
+GH Discussion,google/jax-19496,"System resource exhaustions, ",
+GH Discussion,hiyouga/LLaMA-Efficient-Tuning-4721,"Flawed or insecure prompt/template design, Software Dependencies Compatibility Issues",Implementation of Content Safety Filters/Checkers
+GH Discussion,langchain-ai/langchain-29582,"Software Dependencies Compatibility Issues, Harmful/Undesired model output",", Component Removal/Replacement"
+GH Issue,axolotl-ai-cloud/axolotl-1858,"System resource exhaustions, Unsafe memory usage, Software Dependencies Compatibility Issues","Memory Safety & Resource Management Techniques, "
+GH Issue,nomic-ai/gpt4all-1082,"Limited capabilities of security tools, Risk of malicious codes in dependencies/plugins, Software Dependencies Compatibility Issues, Deployment misconfigurations",
+GH Issue,nomic-ai/gpt4all-3211,"Software Dependencies Compatibility Issues, Deployment misconfigurations, Harmful/Undesired model output",
+GH Issue,nomic-ai/gpt4all-525,",  , Risk of malicious codes in dependencies/plugins, Software Dependencies Compatibility Issues",
+GH Issue,ollama/ollama-8383,"Using insecure (default) deployment configurations, Deployment misconfigurations, Improper authentication and authorization","Implementation of Secure Default Configurations, Secure Deployment Strategies, Authorization & Permission Controls"
+GH Issue,Unity-Technologies/ml-agents-5458,"System resource exhaustions, Unsafe memory usage, Software Dependencies Compatibility Issues",
+GH Issue,axolotl-ai-cloud/axolotl-1181,"System resource exhaustions, Unsafe memory usage, Deployment misconfigurations",
+GH Issue,vespa-engine/pyvespa-143,"Environmental Compatibility Issues, Deployment misconfigurations, Software Dependencies Compatibility Issues",Modify configurations for enhanced compatibility
+GH Issue,vladmandic/automatic-2795,"Limited capabilities of security tools, Risk of malicious codes in dependencies/plugins, System/Software unsafe deserialization",
+GH Issue,deepseek-ai/deepseek-coder-602,"Outdated third-party dependency/package contains vulnerabilities, System/software Cross-Site Scripting, Unsafe memory usage","Dependency Version Upgrade, "
+GH Issue,pytorch/pytorch-102156,"System/Software unsafe deserialization, Unsafe memory usage, System resource exhaustions,","Secure Deserialization Practices, Memory Safety & Resource Management Techniques, Input Validation and Sanitization"
+GH Issue,lm-sys/FastChat-232,"Unreliable content filtering mechanism for model output, Harmful/Undesired model output, Flawed or insecure prompt/template design",Modify configurations for enhanced security
+GH Issue,pytorch/pytorch-102160,"System/Software unsafe deserialization, Unsafe memory usage, System resource exhaustions,","Secure Deserialization Practices, Memory Safety & Resource Management Techniques, Input Validation and Sanitization"
+GH Issue,AntonOsika/gpt-engineer-950,"Outdated third-party dependency/package contains vulnerabilities, Harmful/Undesired model output",
+GH Issue,tensorflow/tensorflow-82214,"System/software arbitrary code execution, Unsafe OS command execution and environment variable handling, System/Software unsafe deserialization, Risk of malicious codes in dependencies/plugins, Use of untrusted dependency sources, , Unauthorized data collection during usage","Secure Code Execution Implementation, , Input Validation and Sanitization"
+GH Issue,microsoft/Olive-83,System/software path traversal,"Input Validation and Sanitization,"
+GH Issue,daswer123/xtts-api-server-61,"System/software path traversal, Unauthorized data collection during usage","Input Validation and Sanitization,"
+GH Issue,AUTOMATIC1111/stable-diffusion-webui-12822,"System/software path traversal, Unauthorized data collection during usage",
+GH Issue,OpenDevin/OpenDevin-1194,"System/software path traversal, Unauthorized data collection during usage",
+GH Issue,langchain-ai/langchain-24382,"Software Dependencies Compatibility Issues, Harmful/Undesired model output",
+GH Issue,h2oai/h2ogpt-1499,", Deployment misconfigurations, Software Dependencies Compatibility Issues",
+GH Issue,gradio-app/gradio-8148,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations, Software Dependencies Compatibility Issues",
+GH Issue,microsoft/autogen-4873,"System/software arbitrary code execution, System/Software unsafe deserialization, ",
+GH Issue,infiniflow/ragflow-1860,"System/software arbitrary code execution, System/Software unsafe deserialization, ",
+GH Issue,mosaicml/streaming-519,"System/Software unsafe deserialization,System/software arbitrary code execution","Secure Deserialization Practices, Implementation of Secure Default Configurations, User Consent and Warning Mechanisms, Secure Code Execution Implementation"
+GH Issue,FAIR-Chem/fairchem-192,"System/Software unsafe deserialization, System/software arbitrary code execution","Secure Deserialization Practices, Secure Code Execution Implementation,"
+GH Issue,jy0205/Pyramid-Flow-217,"Using insecure (default) deployment configurations, Deployment misconfigurations, , Exposed system details and information in APIs",
+GH Issue,mcmilk/7-Zip-zstd-213,"Limited capabilities of security tools, Risk of malicious codes in dependencies/plugins",
+GH Issue,langchain-ai/langchain-10441,Model input manipulations and evasions,"Adoption/Enhancment of Security Scanning & Testing Tools, Implementation of Content Safety Filters/Checkers, Input Validation and Sanitization"
+GH Issue,AUTOMATIC1111/stable-diffusion-webui-12698,"System/software arbitrary code execution, Exposed system details and information in APIs, System/software Request Forgery",Input Validation and Sanitization
+GH Issue,deepset-ai/haystack-3521,"System/software arbitrary code execution, System/Software unsafe deserialization,","Dependency Version Upgrade, Secure Code Execution Implementation, Implementation of Secure Default Configurations, Secure Deserialization Practices"
+GH Issue,cpacker/MemGPT-1230,"Improper authentication and authorization, Data leakages during model training/inference/usage,",Secure Code Execution Implementation
+GH Issue,w-okada/voice-changer-1153,"Using insecure (default) deployment configurations, Exposed system details and information in APIs, Deployment misconfigurations","Implementation of Secure Default Configurations, Secure Communication Protocol Usage, Modify configurations for enhanced security, Secure Deployment Strategies"
+GH Issue,derrian-distro/LoRA_Easy_Training_Scripts-237,"Risk of malicious codes in dependencies/plugins, Use of untrusted dependency sources, , ","User Consent and Warning Mechanisms, , Dependency Source Vetting and Control"
+GH Issue,gradio-app/gradio-8301,"System/software arbitrary code execution, Exposed system details and information in APIs, ","Input Validation and Sanitization, Secure Code Execution Implementation"
+GH Issue,gradio-app/gradio-9229,"Unauthorized data collection during usage, Data leakages during model training/inference/usage, Exposed system details and information in APIs, Risk of malicious codes in dependencies/plugins","Implementation of Data Anonymization, Component Removal/Replacement"
+GH Issue,danswer-ai/danswer-2444,"Using insecure (default) deployment configurations, Deployment misconfigurations, Exposed system details and information in APIs, Data leakages during model training/inference/usage, Improper authentication and authorization","Modify configurations for enhanced security, "
+GH Issue,MervinPraison/PraisonAI-335,"Deployment misconfigurations, Data tampering during deployments, Software Dependencies Compatibility Issues","Implementation of Secure Default Configurations, Secure Deployment Strategies, Modify configurations for enhanced security, "
+GH Issue,facebookresearch/faiss-1608,"Unsafe memory usage, Software Dependencies Compatibility Issues,",
+GH Issue,outlines-dev/outlines-659,"System resource exhaustions, Software Dependencies Compatibility Issues, Failure of Model Generation Control Parameters",
+GH Issue,tensorflow/models-10325,"Insecure communication due to missing certificates or protocols, Use of untrusted dependency sources, Risk of malicious codes in dependencies/plugins, , Deployment misconfigurations","Secure Communication Protocol Usage, Dependency Source Vetting and Control, Modify configurations for enhanced security"
+GH Issue,pandas-dev/pandas-29095,"System/software arbitrary code execution, Data leakages during model training/inference/usage, Using insecure (default) deployment configurations, Security risk from deficient data quality, ,  ","Implementation of Secure Default Configurations, Input Validation and Sanitization, User Consent and Warning Mechanisms, "
+GH Issue,TheOpenSI/cognitive_AI_experiments-9,"Unsafe OS command execution and environment variable handling, System/software arbitrary code execution","Input Validation and Sanitization, Secure Code Execution Implementation, Secure Deployment Strategies"
+GH Issue,langchain-ai/langchain-6003,"Model input manipulations and evasions, System/software arbitrary code execution, System resource exhaustions","Input Validation and Sanitization, Secure Code Execution Implementation, Memory Safety & Resource Management Techniques"
+GH Issue,pytorch/pytorch-89189,"Unsafe OS command execution and environment variable handling, System/software arbitrary code execution","Secure Code Execution Implementation, Input Validation and Sanitization"
+GH Issue,langchain-ai/langchain-6228,"Model input manipulations and evasions, Exposed system details and information in APIs, Data leakages during model training/inference/usage, System/software Request Forgery","Input Validation and Sanitization, User Consent and Warning Mechanisms"
+GH Issue,mlperf/inference-1920,"Unsafe OS command execution and environment variable handling, System/software arbitrary code execution","Secure Code Execution Implementation, Input Validation and Sanitization"
+GH Issue,infiniflow/ragflow-1498,"System/software arbitrary code execution, System/software Cross-Site Scripting ",Input Validation and Sanitization
+GH Issue,mlperf/inference-1936,"Unsafe OS command execution and environment variable handling, System/software arbitrary code execution","Secure Code Execution Implementation, Input Validation and Sanitization"
+GH Issue,gradio-app/gradio-9996,System/software arbitrary code execution,Input Validation and Sanitization
+GH Issue,tensorflow/models-10650,"Unsafe OS command execution and environment variable handling, System/software arbitrary code execution",Secure Code Execution Implementation
+GH Issue,huggingface/transformers-18801,"System/software arbitrary code execution, System/Software unsafe deserialization, Use of untrusted dependency sources, ",", Secure Code Execution Implementation, User Consent and Warning Mechanisms"
+GH Issue,tensorflow/models-9350,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations, ","Secure Deployment Strategies, Secure Communication Protocol Usage, Modify configurations for enhanced security"
+GH Issue,ollama/ollama-1063,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations,","Secure Communication Protocol Usage, Modify configurations for enhanced security"
+GH Issue,descriptinc/descript-audio-codec-53,"System/Software unsafe deserialization, System/software arbitrary code execution, Risk of malicious codes in dependencies/plugins, Use of untrusted dependency sources","Secure Model Format Adoption, Secure Deserialization Practices, "
+GH Issue,invoke-ai/InvokeAI-973,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations, Software Dependencies Compatibility Issues",
+GH Issue,huggingface/transformers-27776,"System/Software unsafe deserialization, System/software arbitrary code execution, Risk of malicious codes in dependencies/plugins","Secure Deserialization Practices, Secure Code Execution Implementation, Implementation of Secure Default Configurations, User Consent and Warning Mechanisms"
+GH Issue,meta-llama/PurpleLlama-35,Limited capabilities of security tools,
+GH Issue,scikit-learn/scikit-learn-28312,,"Adoption/Enhancment of Security Scanning & Testing Tools, Adoption of vulnerability disclosure and reporting process"
+GH Issue,comfyanonymous/ComfyUI_bitsandbytes_NF4-48,"Limited capabilities of security tools, , ",
+GH Issue,TimDettmers/bitsandbytes-1110,"Use of untrusted dependency sources, Risk of malicious codes in dependencies/plugins,","Dependency Source Vetting and Control, "
+GH Issue,sgl-project/sglang-230,Improper authentication and authorization,Implementation of Authentication Mechanisms
+GH Issue,oobabooga/text-generation-webui-2927,Environmental Compatibility Issues,
+GH Issue,PaddlePaddle/PaddleNLP-7983,"System/software arbitrary code execution,  Risk of malicious codes in dependencies/plugins, Use of untrusted dependency sources, ",
+GH Issue,huggingface/transformers-22944,"Using insecure (default) deployment configurations, Risk of malicious codes in dependencies/plugins, Unauthorized data collection during usage, Limited capabilities of security tools",User Consent and Warning Mechanisms
+GH Issue,huggingface/transformers-32904,"Outdated third-party dependency/package contains vulnerabilities, Deployment misconfigurations, System resource exhaustions, ",Component Removal/Replacement
+GH Issue,InternLM/MindSearch-107,"Model input manipulations and evasions, System/software arbitrary code execution, Harmful/Undesired model output, Unsafe OS command execution and environment variable handling, ",
+GH Issue,keras-team/keras-cv-2074,"Using insecure (default) deployment configurations, ","Implementation of Secure Default Configurations, Authorization & Permission Controls, "
+GH Issue,RVC-Boss/GPT-SoVITS-1769,"Unsafe OS command execution and environment variable handling, System/software arbitrary code execution, Using insecure (default) deployment configurations","Secure Code Execution Implementation, Input Validation and Sanitization"
+GH Issue,deepset-ai/haystack-1767,"System resource exhaustions, Deployment misconfigurations, Software Dependencies Compatibility Issues",
+GH Issue,opensearch-project/neural-search-1093,"Unsafe memory usage , Software Dependencies Compatibility Issues, Deployment misconfigurations",Memory Safety & Resource Management Techniques
+GH Issue,OpenDevin/OpenDevin-2692,"Deployment misconfigurations,  ","Modify configurations for enhanced security, Secure Deployment Strategies, Modify configurations for enhanced compatibility"
+GH Issue,mudler/LocalAI-2102," Improper authentication and authorization,","Implementation of Authentication Mechanisms, Authorization & Permission Controls, "
+GH Issue,pandas-dev/pandas-14696,"Unsafe memory usage, System resource exhaustions,",Memory Safety & Resource Management Techniques
+GH Issue,gradio-app/gradio-5497,"Insecure communication due to missing certificates or protocols, Deployment misconfigurations, Software Dependencies Compatibility Issues",
+GH Issue,vllm-project/vllm-8184,"System resource exhaustions, Unsafe memory usage, ",
+GH Issue,tensorflow/tensorflow-43702,"System resource exhaustions, Unsafe memory usage, ",
+GH Issue,triton-inference-server/client-791,"Unsafe memory usage,  , System resource exhaustions",Memory Safety & Resource Management Techniques
+GH Issue,OpenDevin/OpenDevin-4480,"Platform API Availability/Error, System resource exhaustions, Limited capabilities of security tools",Memory Safety & Resource Management Techniques
+GH Issue,WongKinYiu/yolov7-1920,"System/Software unsafe deserialization, System/software arbitrary code execution, Security risk from deficient data quality,","Secure Deserialization Practices, Secure Code Execution Implementation"
+GH Issue,langchain-ai/langchain-1026,"System/software arbitrary code execution, Model input manipulations and evasions, Risk of malicious codes in dependencies/plugins, Harmful/Undesired model output","Secure Code Execution Implementation, Input Validation and Sanitization"
+GH Issue,CopilotKit/CopilotKit-248,"Improper authentication and authorization, System/software arbitrary code execution, Model input manipulations and evasions, Data leakages during model training/inference/usage, Exposed system details and information in APIs, ",Implementation of Authentication Mechanisms
+GH Issue,pixie-io/pixie-243,"Using insecure (default) deployment configurations, Use of untrusted dependency sources, Risk of malicious codes in dependencies/plugins, System/software arbitrary code execution, ,  ","Dependency Source Vetting and Control, "
+GH Issue,pytorch/vision-8041,"Insecure communication due to missing certificates or protocols, Use of untrusted dependency sources, Risk of malicious codes in dependencies/plugins, Data tampering during deployments, ","Secure Communication Protocol Usage, Dependency Source Vetting and Control, Component Removal/Replacement"
+GH Issue,huggingface/tokenizers-1458,"Model input manipulations and evasions, Flawed or insecure prompt/template design, Harmful/Undesired model output","Secure Prompt Formatting Techniques, Input Validation and Sanitization"
+GH Issue,Mozilla-Ocho/llamafile-15,"System/Software unsafe deserialization, Risk of malicious codes in dependencies/plugins, System/software arbitrary code execution, Use of untrusted dependency sources, , ",", Dependency Source Vetting and Control, Secure Model Format Adoption, Adoption/Enhancment of Security Scanning & Testing Tools, Secure Deployment Strategies"
+GH Issue,tensorflow/tensorflow-62334,"Model input manipulations and evasions, Security risk from deficient data quality, Harmful/Undesired model output","Input Validation and Sanitization, Implementation of Content Safety Filters/Checkers"
+GH Issue,OpenDevin/OpenDevin-4853,,Implementation of Authentication Mechanisms
+GH Issue,metercai/SimpleSDXL-97,"Use of untrusted dependency sources, Risk of malicious codes in dependencies/plugins, , Deployment misconfigurations","Dependency Source Vetting and Control, Secure Deployment Strategies, Modify configurations for enhanced security"
+GH Issue,comfyanonymous/ComfyUI-4850,"System/software arbitrary code execution, Model input manipulations and evasions, , Using insecure (default) deployment configurations, Risk of malicious codes in dependencies/plugins,  , Improper authentication and authorization, System/software Request Forgery","Implementation of Authentication Mechanisms, Secure Code Execution Implementation, "
+GH Issue,OpenCodeInterpreter/OpenCodeInterpreter-30,"Outdated third-party dependency/package contains vulnerabilities, Model input manipulations and evasions, System/software path traversal, , System/software open redirect","Dependency Version Upgrade, Input Validation and Sanitization"
+GH Issue,pixie-io/pixie-356,,"Adoption/Enhancment of Security Scanning & Testing Tools, Input Validation and Sanitization, Implementation of Content Safety Filters/Checkers"
+GH Issue,ltdrdata/ComfyUI-Manager-1125,"System/software path traversal, System/software arbitrary code execution, Data tampering during deployments, Using insecure (default) deployment configurations, ",
+GH Issue,deepseek-ai/DeepSeek-V3-514,"System/software arbitrary code execution, Data leakages during model training/inference/usage, System/software Cross-Site Scripting ","Input Validation and Sanitization, Secure Code Execution Implementation, Dependency Source Vetting and Control"
+GH Issue,rom1504/img2dataset-281,"Use of untrusted dependency sources, Risk of malicious codes in dependencies/plugins, Security risk from deficient data quality, ",
+HF Discussion,TinyLlama/tinyLlama-intermediate-checkpoints-1,"System/Software unsafe deserialization, File format and loading incompatibility, System/software arbitrary code execution","Secure Deserialization Practices, Secure Code Execution Implementation"
+HF Discussion,mistralai/Mistral-7B-Instruct-v0.1-91,"System resource exhaustions, Deployment misconfigurations,  , Software Dependencies Compatibility Issues","Modify configurations for enhanced security, Memory Safety & Resource Management Techniques, ,  Secure Code Execution Implementation"
+HF Discussion,microsoft/Phi-3-mini-128k-instruct-onnx-9,"Deployment misconfigurations, File format and loading incompatibility,  , Platform API Availability/Error","Modify configurations for enhanced security, Secure Deployment Strategies, , "
+HF Discussion,AetherArchitectural/GGUF-Quantization-Script-8,"System resource exhaustions, Software Dependencies Compatibility Issues",Dependency Version Upgrade
+HF Discussion,TheBloke/OpenAssistant-SFT-7-Llama-30B-GGML-2,"Flawed or insecure prompt/template design, File format and loading incompatibility, Harmful/Undesired model output, Failure of Model Generation Control Parameters, Software Dependencies Compatibility Issues",
+HF Discussion,TheBloke/Wizard-Vicuna-30B-Uncensored-GPTQ-12,"Unsafe memory usage, Environmental Compatibility Issues, Software Dependencies Compatibility Issues",Component Removal/Replacement
+HF Discussion,TheBloke/Falcon-7B-Instruct-GPTQ-4,"Software Dependencies Compatibility Issues, File format and loading incompatibility,","Dependency Version Upgrade, Modify configurations for enhanced compatibility "
+HF Discussion,bartowski/gemma-2-27b-it-GGUF-3,"Flawed or insecure prompt/template design, Harmful/Undesired model output, Software Dependencies Compatibility Issues, File format and loading incompatibility",Dependency Version Upgrade
+HF Discussion,lmsys/vicuna-13b-v1.5-16k-1,"Flawed or insecure prompt/template design, Software Dependencies Compatibility Issues, System resource exhaustions, Outdated third-party dependency/package contains vulnerabilities,",Dependency Version Upgrade
+HF Discussion,bigscience/T0pp-7,Platform API Availability/Error,Secure Deployment Strategies
+HF Discussion,lmstudio-community/DeepSeek-Coder-V2-Lite-Instruct-GGUF-1,"File format and loading incompatibility, Software Dependencies Compatibility Issues, ",Dependency Version Upgrade
+HF Discussion,THUDM/cogvlm-chat-hf-4,"Environmental Compatibility Issues, Deployment misconfigurations","Modify configurations for enhanced compatibility, Modify configurations for enhanced security"
+HF Discussion,google/gemma-7b-12,System resource exhaustions,Modify configurations for enhanced security
+HF Discussion,TheBloke/medalpaca-13B-GPTQ-1,"Deployment misconfigurations, File format and loading incompatibility, Software Dependencies Compatibility Issues, Outdated third-party dependency/package contains vulnerabilities, Environmental Compatibility Issues","Dependency Version Upgrade, Modify configurations for enhanced compatibility,  , Modify configurations for enhanced security"
+HF Discussion,mistralai/Mistral-Nemo-Instruct-2407-47,"Flawed or insecure prompt/template design, Harmful/Undesired model output, Failure of Model Generation Control Parameters",Secure Prompt Formatting Techniques
+HF Discussion,google/long-t5-local-large-1,"Software Dependencies Compatibility Issues, File format and loading incompatibility, Outdated third-party dependency/package contains vulnerabilities, Deployment misconfigurations",Dependency Version Upgrade
+HF Discussion,Trelis/Mistral-7B-Instruct-v0.1-Summarize-64k-1,"System resource exhaustions, Deployment misconfigurations, File format and loading incompatibility, Software Dependencies Compatibility Issues, ","Modify configurations for enhanced security, , Secure Prompt Formatting Techniques,"
+HF Discussion,yanolja/EEVE-Korean-Instruct-10.8B-v1.0-1,"System resource exhaustions, Environmental Compatibility Issues, Software Dependencies Compatibility Issues, ",Component Removal/Replacement
+HF Discussion,meta-llama/Llama-3.2-1B-Instruct-20,"Flawed or insecure prompt/template design, Software Dependencies Compatibility Issues",
+HF Discussion,mlx-community/pixtral-12b-4bit-1,Software Dependencies Compatibility Issues,"Secure Prompt Formatting Techniques, Input Validation and Sanitization"
+HF Discussion,meta-llama/Meta-Llama-3-8B-Instruct-14,"Harmful/Undesired model output, ",Modify configurations for enhanced security
+HF Discussion,mistralai/Mixtral-8x7B-v0.1-25,"System resource exhaustions, Environmental Compatibility Issues","Memory Safety & Resource Management Techniques, "
+HF Discussion,openGPT-X/Teuken-7B-instruct-research-v0.4-5,"Flawed or insecure prompt/template design, Deployment misconfigurations, Using insecure (default) deployment configurations, Software Dependencies Compatibility Issues","Secure Prompt Formatting Techniques, Modify configurations for enhanced security"
+HF Discussion,bigscience/bloom-70,Platform API Availability/Error,
+HF Discussion,amazon/FalconLite2-1,"File format and loading incompatibility, System/Software unsafe deserialization,  , Deployment misconfigurations","Secure Code Execution Implementation, , Modify configurations for enhanced security, Dependency Version Upgrade"
+HF Discussion,THUDM/glm-4-9b-chat-1m-hf-1,"Harmful/Undesired model output, Software Dependencies Compatibility Issues",
+HF Discussion,TheBloke/Llama-2-7B-Chat-GPTQ-27,"System resource exhaustions, Deployment misconfigurations,  ","Secure Deployment Strategies, , Use of Dependency Management Tools"
+HF Discussion,microsoft/maira-2-6,Software Dependencies Compatibility Issues,Dependency Version Upgrade
+HF Discussion,turkish-nlp-suite/tr_core_news_trf-2,"System resource exhaustions, Outdated third-party dependency/package contains vulnerabilities",
+HF Discussion,mistralai/Mixtral-8x7B-Instruct-v0.1-139,"System resource exhaustions, Deployment misconfigurations, Environmental Compatibility Issues",Memory Safety & Resource Management Techniques
+HF Discussion,MaziyarPanahi/Calme-7B-Instruct-v0.9-GGUF-2,"Harmful/Undesired model output, Flawed or insecure prompt/template design, File format and loading incompatibility",
+HF Discussion,google/gemma-7b-it-40,"Harmful/Undesired model output, Environmental Compatibility Issues, File format and loading incompatibility",Modify configurations for enhanced compatibility
+HF Discussion,Panchovix/goliath-120b-exl2-2,"Harmful/Undesired model output, File format and loading incompatibility, Flawed or insecure prompt/template design",
+HF Discussion,reeducator/vicuna-13b-free-9,"Harmful/Undesired model output, Data leakages during model training/inference/usage, Security risk from deficient data quality",
+HF Discussion,Salesforce/SFR-Embedding-Mistral-14,"File format and loading incompatibility, Software Dependencies Compatibility Issues, Deployment misconfigurations",Modify configurations for enhanced security
+HF Discussion,mistralai/Mixtral-8x7B-Instruct-v0.1-53,"Software Dependencies Compatibility Issues, Deployment misconfigurations, Outdated third-party dependency/package contains vulnerabilities",Dependency Version Upgrade
+HF Discussion,mistralai/Mixtral-8x7B-Instruct-v0.1-191,"File format and loading incompatibility, Data tampering during deployments",
+HF Discussion,joeddav/xlm-roberta-large-xnli-5,Platform API Availability/Error,
+HF Discussion,TheBloke/Nous-Capybara-34B-GGUF-2,"Harmful/Undesired model output, Flawed or insecure prompt/template design, Unreliable content filtering mechanism for model output","Input Validation and Sanitization, Implementation of Content Safety Filters/Checkers"
+HF Discussion,Qwen/Qwen2-7B-Instruct-15,Software Dependencies Compatibility Issues,Modify configurations for enhanced security
+HF Discussion,sayakpaul/flux.1-schell-int8wo-improved-2,"System resource exhaustions, Software Dependencies Compatibility Issues, Outdated third-party dependency/package contains vulnerabilities","Memory Safety & Resource Management Techniques, Dependency Version Upgrade"
+GH Issue,gradio-app/gradio-7676,"Unauthorized data collection during usage, , Exposed system details and information in APIs,  , Deployment misconfigurations",
+GH Issue,facebookresearch/ParlAI-4860,Outdated third-party dependency/package contains vulnerabilities,"Dependency Version Upgrade, Component Removal/Replacement"
+GH Issue,RVC-Boss/GPT-SoVITS-1767,"Unsafe OS command execution and environment variable handling, System/software arbitrary code execution, Using insecure (default) deployment configurations","Secure Code Execution Implementation, Input Validation and Sanitization"
+GH Issue,invoke-ai/InvokeAI-2946,"System/Software unsafe deserialization, System/software arbitrary code execution, ","Secure Code Execution Implementation, Secure Deserialization Practices, Secure Model Format Adoption, Input Validation and Sanitization"
+GH Issue,langchain-ai/langchain-24442,"Outdated third-party dependency/package contains vulnerabilities, System/software Request Forgery",
+GH Issue,huggingface/transformers-28299,Unsafe OS command execution and environment variable handling,Secure Code Execution Implementation
+GH Issue,keras-team/keras-tuner-929,"Using insecure (default) deployment configurations, Improper authentication and authorization, , Risk of malicious codes in dependencies/plugins, Data tampering during deployments","Authorization & Permission Controls, Secure Deployment Strategies"
+GH Discussion,guillaumekln/faster-whisper-1087,System resource exhaustions,
+GH Issue,facebookresearch/llama-1122,,Dependency Source Vetting and Control
+HF Discussion,Salesforce/blip-image-captioning-large-30,Unauthorized data collection during usage,
+HF Discussion,John6666/joy-caption-alpha-one-cli-mod-2,System/software arbitrary code execution,
