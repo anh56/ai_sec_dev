@@ -1,7 +1,8 @@
-# Security of AI Open-Source Projects - A Study of Developer-Reported Issues and Solutions
+# Securing the AI Supply Chain: What Can We Learn From Developer-Reported Security Issues and Solutions of AI Projects?
 
 This repository contains the data and scripts used in the paper
-"Security of AI Open-Source Projects - A Study of Developer-Reported Issues and Solutions".
+"Securing the AI Supply Chain: What Can We Learn From
+Developer-Reported Security Issues and Solutions of AI Projects?".
 
 # Requirements
 Check the `requirements.txt` file for the necessary Python packages.
@@ -22,12 +23,12 @@ Check the `requirements.txt` file for the necessary Python packages.
 |   |-- analysis.ipynb              # quantitative results (RQ1)
 |-- theme/                      # Thematic analysis data
 |   |-- keypoints_codes.csv         # Keypoint extraction and codes identification
-|   |-- codebook_debriefing.xlsx    # Codes and theme synthesis + peer debriefing
-|   |--
-|   |-- mapped.csv                  #
-|   |-- issue_theme_summary.csv     # These files are extracted versions  
-|   |-- solution_theme_summary.csv  # of the codings to generate 
-|   |-- analysis.ipynb              # quantitative results (RQ2,3) in this script
+|   |-- codebook_debriefing.xlsx    # Codes and theme synthesis + peer debriefing process
+|   |------------------------
+|   |-- mapped.csv                  # These files are extracted versions
+|   |-- issue_theme_summary.csv     # of the thematic codes to generate
+|   |-- solution_theme_summary.csv  # quantitative results 
+|   |-- analysis.ipynb              # for RQ2 and RQ3
 ```
 
 # Data
