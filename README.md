@@ -4,11 +4,7 @@ This repository contains the data and scripts used in the paper
 "Securing the AI Supply Chain: What Can We Learn From
 Developer-Reported Security Issues and Solutions of AI Projects?".
 
-# Requirements
-Check the `requirements.txt` file for the necessary Python packages.
-
-# Structure
-
+# Main Structure
 ```
 .
 |-- mining/                     # Data collection scripts
@@ -22,6 +18,7 @@ Check the `requirements.txt` file for the necessary Python packages.
 |   |-- llm_few.py                  # LLM fewshot
 |   |-- analysis.ipynb              # quantitative results (RQ1)
 |-- theme/                      # Thematic analysis data
+|   |-- data.csv                    # Raw data with sources, repo id, and discussion/issue number
 |   |-- keypoints_codes.csv         # Keypoint extraction and codes identification
 |   |-- codebook_debriefing.xlsx    # Codes and theme synthesis + peer debriefing process
 |   |------------------------
@@ -30,6 +27,9 @@ Check the `requirements.txt` file for the necessary Python packages.
 |   |-- solution_theme_summary.csv  # quantitative results 
 |   |-- analysis.ipynb              # for RQ2 and RQ3
 ```
+
+# Requirements
+Check the `requirements.txt` file for the necessary Python packages.
 
 # Data
 Including the full data with the discussion is too heavy so we only include the id and the sources along with the label. Full discussion data can be found the models.db database.
@@ -43,8 +43,19 @@ models.db: duckdb database containing the discussion data, contains the followin
 - gh_comments: comments of GitHub discussions (repo_name, discussion_number,author_login,comment_body)
 - gh_issues: issues of GitHub repositories (repo_name,issue_url,issue_title,issue_body,pr_from_issue,user_login,issue_number)
 - gh_issues_comments: comments of issues on GitHub repositories (repo_name,issue_url,issue_title,issue_body,pr_from_issue,user_login, issue_number, issue_comment)
+SQL can be used to review the content of these tables.
 
+# Experiments (RQ1)
+- Run [process.ipynb](classifier/process.ipynb) notebook to extract the data from the database.
+- [sample.sh](classifier/sample.sh) contains a list of sample commands to run the classifiers in different settings.
+- [inference/distilbert](classifier/inference/distilbert) contains the inferred results using distilbert.
+- Run [analysis.ipynb](classifier/analysis.ipynb) to generate the results of RQ1.
 
+# Thematic Analysis (RQ2,3)
+- The samples presented in the paper are presented as {Repo Name}-{Discussion Number}. 
+- Only the last number is the discussion number, for example: comfyanonymous/ComfyUI-5165 -> repo name: comfyanonymous/ComfyUI, discussion number: 5165.
+- These repo names and discussion number then can be used to trace back the source it originated from in [data.xlsx](theme/data.xlsx).
+- Run [analysis.ipynb](theme/analysis.ipynb) to generate the frequency/coverage.
 
 # Citation
 TBD
