@@ -8,7 +8,7 @@ g = Github(auth=auth)
 
 
 def mine_repos(con, disable_commits=True):
-	df = pd.read_csv('result/hf_gh_link_set_full_counts_0902.csv')
+	df = pd.read_csv('result/models/models_with_scored_link.csv')
 	cursor = con.cursor()
 
 	for index, row in df.iterrows():
@@ -98,7 +98,7 @@ def mine_repos(con, disable_commits=True):
 
 
 def get_repo_db():
-	conn = duckdb.connect('./result/models.db')
+	conn = duckdb.connect('./result/models/models.db')
 	cursor = conn.cursor()
 	cursor.execute("""
 	CREATE SEQUENCE IF NOT EXISTS id_repo START 1;

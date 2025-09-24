@@ -16,7 +16,7 @@ api = HfApi(token="")
 
 def get_model_list(
     update_model_list: bool = False,
-    write_to: str = "./result/model_list.csv",
+    write_to: str = "./result/models/model_list.csv",
     db_conn=None
 ):
     if update_model_list:
@@ -233,7 +233,7 @@ def mine_model(model: str, write_to: str = "./result/models.csv", corasick=None,
 # adapter_count, merge_count, quantized_count, finetune_count, github_links, kw_in_hf_readme
 
 def create_and_get_db_conn():
-    con = duckdb.connect("./result/models.db")
+    con = duckdb.connect("./result/models/models.db")
     con.sql("CREATE TABLE IF NOT EXISTS model_list (model_id VARCHAR, done BOOLEAN);")
     con.sql("""
         CREATE TABLE IF NOT EXISTS models (

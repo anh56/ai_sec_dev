@@ -7,7 +7,7 @@ import pandas as pd
 from Levenshtein import ratio
 import duckdb
 
-con = duckdb.connect("./result/models.db")
+con = duckdb.connect("./result/models/models.db")
 df = con.execute("select * from models").df()
 
 df["github_links_set"] = None

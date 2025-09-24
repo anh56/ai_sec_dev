@@ -79,10 +79,6 @@ chat_prompt = ChatPromptTemplate.from_messages(
 	]
 )
 
-TEMPLATES = {
-	"all": (TEMPLATE_ALL, ["content"]),
-}
-
 MODEL_MAPPING = {
 	"llama31_8b": "llama3.1:8b",
 	"llama33_70b_awq": "ibnzterrell/Meta-Llama-3.3-70B-Instruct-AWQ-INT4",

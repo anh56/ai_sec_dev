@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 auth = Auth.Token("")
 g = Github(auth=auth)
-conn = duckdb.connect('./result/models.db')
+conn = duckdb.connect('./result/models/models.db')
 cursor = conn.cursor()
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS gh_issues_comments (

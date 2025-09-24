@@ -15,7 +15,7 @@ api = HfApi(token="")
 
 
 def create_and_get_db_conn():
-    con = duckdb.connect("./result/models.db")
+    con = duckdb.connect("./result/models/models.db")
     con.sql(
         """
         CREATE TABLE IF NOT EXISTS hf_discussions(

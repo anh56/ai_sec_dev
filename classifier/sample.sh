@@ -1,4 +1,4 @@
-# remember to get export the content of the corresponding discussion before running
+# remember to export the content of the corresponding discussion before running
 # train
 python classifier_tune.py -N "train_distilbert_" -F "all.csv" -I "manual" -O "prediction_tuned" -T "all" -M "distilbert" -E 10 -KF 10
 
